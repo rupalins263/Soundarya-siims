@@ -1,0 +1,11 @@
+a{
+        color: #000030;
+        outline: none !important;
+}
+.admission-btn {
+    background: #021B38;
+    font-family: "LexiaLight",Georgia,sans-serif;
+    float: right;
+    padding: 10px 20px;
+    border: none;
+}

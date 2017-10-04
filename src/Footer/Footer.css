@@ -1,0 +1,20 @@
+.footer .footer-content .footer-col .footer-col-inner {
+    padding: 0 15px;
+}
+
+.footer .footer-content .footer-col li {
+    margin-bottom: 10px;
+    font-size: 12px;
+    text-align: left;
+}
+
+.footer .footer-content .adr .fa {
+    font-size: 16px;
+    margin-top: 2px;
+}
+
+.footer .footer-content .footer-col .fa {
+    margin-right: 10px;
+    display: inline-block;
+    color: #767676;
+}

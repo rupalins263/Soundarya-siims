@@ -47,3 +47,12 @@
     font-size: 16px;
 }
 
+.big-banner {
+    background-image: url(http://res.cloudinary.com/dvl9i5pry/image/upload/v1507107424/bg-3_ytcewo.jpg);
+    background-size: cover;
+    padding: 40px 20px;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+

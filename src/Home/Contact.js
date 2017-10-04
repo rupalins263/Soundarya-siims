@@ -59,8 +59,8 @@ export default class Downloads extends Component{
                         <section className="widget has-divider">
                                 <h3 className="title">Downloads</h3>
                                 <p>For your benefit we have compiled in this section some of the key features you should know about SIMS.</p>
-                                <p><a className="btn btn-theme" href="send_attachment.mako?attachment_type=brochure"><i className="fa fa-download"></i>Download Brochure </a></p>
-                                <p><a className="btn btn-theme" href="send_attachment.mako?attachment_type=app_form"><i className="fa fa-download"></i>Download Application Form</a></p>
+                                <p><a className="btn btn-theme" href="http://zenopsys.net/soundarya_forms/sims/brochure.pdf"><i className="fa fa-download"></i>Download Brochure </a></p>
+                                <p><a className="btn btn-theme" href="http://zenopsys.net/soundarya_forms/sims/SIMS-application-form.pdf"><i className="fa fa-download"></i>Download Application Form</a></p>
                             </section>
                         <section className="widget has-divider">
                             <h3 className="title">Postal Address</h3>

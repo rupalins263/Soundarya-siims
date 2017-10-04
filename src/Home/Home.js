@@ -113,16 +113,54 @@ export default class Home extends Component{
 		</div>
 		<div className="col-md-3 col-xs-12 col-sm-6">
 			<h3 className="heading">SIMS experience</h3>
-			<div id="video-slider" className="slider flexslider">
-				<ul className="slides">
-					<li className="" style={{width: "100%", float: "left","margin-right":"-100%", position: "relative", "display": "none"}}><a href="http://www.youtube.com/watch?v=v9ytLhID46E?rel=0&amp;showinfo=0" className="html5lightbox"><img src="http://res.cloudinary.com/dvl9i5pry/image/upload/v1507060396/video-1_hey0ri.jpg" alt="" className="img-responsive"/><img src="http://res.cloudinary.com/dvl9i5pry/image/upload/v1507060598/play-btn_nxozgd.png" alt="" className="play-btn"/></a></li>
-					<li style={{width: "100%", float: "left","margin-right":"-100%", position: "relative", "display": "none"}}><a href="http://www.youtube.com/watch?v=jYIikr0xEu4?rel=0&amp;showinfo=0" className="html5lightbox"><img src="http://res.cloudinary.com/dvl9i5pry/image/upload/v1507060400/video-2_iov5av.jpg" alt="" className="img-responsive"/><img src="http://res.cloudinary.com/dvl9i5pry/image/upload/v1507060598/play-btn_nxozgd.png" alt="" className="play-btn"/></a></li>
-					<li style={{width: "100%", float: "left","margin-right":"-100%", position: "relative", "display": "none"}}><a href="http://www.youtube.com/watch?v=qdaitDnGuhg?rel=0&amp;showinfo=0" className="html5lightbox"><img src="http://res.cloudinary.com/dvl9i5pry/image/upload/v1507060401/video-3_ifqgj2.jpg" alt=""  className="img-responsive"/><img src="http://res.cloudinary.com/dvl9i5pry/image/upload/v1507060598/play-btn_nxozgd.png" alt="" className="play-btn"/></a></li>
-					<li style={{width: "100%", float: "left","margin-right":"-100%", position: "relative", "display": "none"}}><a href="http://www.youtube.com/watch?v=6o8Px9aR60s?rel=0&amp;showinfo=0" className="html5lightbox"><img src="http://res.cloudinary.com/dvl9i5pry/image/upload/v1507060396/video-4_cdz4nt.jpg" alt="" className="img-responsive"/><img src="http://res.cloudinary.com/dvl9i5pry/image/upload/v1507060598/play-btn_nxozgd.png" alt="" className="play-btn"/></a></li>
-					<li style={{width: "100%", float: "left","margin-right":"-100%", position: "relative", "display": "none"}} className="flex-active-slide"><a href="http://www.youtube.com/watch?v=sGTA2HsqCWA?rel=0&amp;showinfo=0" className="html5lightbox"><img src="http://res.cloudinary.com/dvl9i5pry/image/upload/v1507060399/video-5_nxygwj.jpg" alt="" className="img-responsive"/><img src="http://res.cloudinary.com/dvl9i5pry/image/upload/v1507060598/play-btn_nxozgd.png" alt="" className="play-btn"/></a></li>
-				</ul>
-			<ol className="flex-control-nav flex-control-paging"><li><a className="">1</a></li><li><a className="">2</a></li><li><a className="">3</a></li><li><a className="">4</a></li><li><a className="flex-active">5</a></li></ol><ul className="flex-direction-nav"><li><a className="flex-prev" href="#">Previous</a></li><li><a className="flex-next" href="#">Next</a></li></ul></div>
+					
+		
+                                <div id="myCarousel" className="carousel slide" data-ride="carousel">
+ 
+                                        <ol className="carousel-indicators">
+                                            <li data-target="#myCarousel" data-slide-to="0" className="active"></li>
+                                            <li data-target="#myCarousel" data-slide-to="1"></li>
+                                            <li data-target="#myCarousel" data-slide-to="2"></li>
+                                            <li data-target="#myCarousel" data-slide-to="3"></li>
+                                            <li data-target="#myCarousel" data-slide-to="4"></li>
+                                    
+                                        </ol>
+
+
+                                        <div className="carousel-inner">
+                                            <div className="item active">
+                                                <img src="http://res.cloudinary.com/dvl9i5pry/image/upload/v1507060396/video-1_hey0ri.jpg" alt=""/>
+                                            </div>
+                                            <div className="item ">
+                                                <img src="http://res.cloudinary.com/dvl9i5pry/image/upload/v1507060400/video-2_iov5av.jpg" alt=""/>
+                                            </div>
+                                            <div className="item ">
+                                                <img src="http://res.cloudinary.com/dvl9i5pry/image/upload/v1507060401/video-3_ifqgj2.jpg" alt=""/>
+                                            </div>
+                                            <div className="item ">
+                                                <img src="http://res.cloudinary.com/dvl9i5pry/image/upload/v1507060396/video-4_cdz4nt.jpg" alt=""/>
+                                            </div>   
+											  <div className="item ">
+                                                <img src="http://res.cloudinary.com/dvl9i5pry/image/upload/v1507060399/video-5_nxygwj.jpg" alt=""/>
+                                            </div>              
+                                        </div>
+
+  
+                                    {/*<a className="left carousel-control" href="#myCarousel" data-slide="prev">
+                                        <span className="glyphicon glyphicon-chevron-left"></span>
+                                        <span className="sr-only">Previous</span>
+                                    </a>
+                                    <a className="right carousel-control" href="#myCarousel" data-slide="next">
+                                        <span className="glyphicon glyphicon-chevron-right"></span>
+                                        <span className="sr-only">Next</span>
+                                    </a>*/}
+                                    </div>
+
+
+
+		
 		</div>
+
 	</div>
 	<div className="row cols-wrapper mt20">
 		<div className="col-md-9 col-xs-12 col-sm-6">
@@ -162,45 +200,7 @@ export default class Home extends Component{
 													</div>
 
 
-												<div className="container">
-												<h1>Use Bootstrap's carousel to show multiple items per slide.</h1>
-												<div className="row">
-													<div className="col-md-12">
-													<div className="carousel slide multi-item-carousel" id="theCarousel">
-														<div className="carousel-inner">
-														<div className="item active">
-															<div className="col-xs-4"><a href="#1"><img src="http://placehold.it/300/f44336/000000" className="img-responsive"/></a></div>
-														</div>
-														<div className="item">
-															<div className="col-xs-4"><a href="#1"><img src="http://placehold.it/300/e91e63/000000" className="img-responsive"/></a></div>
-														</div>
-														<div className="item">
-															<div className="col-xs-4"><a href="#1"><img src="http://placehold.it/300/9c27b0/000000" className="img-responsive"/></a></div>
-														</div>
-														<div className="item">
-															<div className="col-xs-4"><a href="#1"><img src="http://placehold.it/300/673ab7/000000" className="img-responsive"/></a></div>
-														</div>
-														<div className="item">
-															<div className="col-xs-4"><a href="#1"><img src="http://placehold.it/300/4caf50/000000" className="img-responsive"/></a></div>
-														</div>
-														<div className="item">
-															<div className="col-xs-4"><a href="#1"><img src="http://placehold.it/300/8bc34a/000000" className="img-responsive"/></a></div>
-														</div>
-														
-														
-														<div className="item">
-															<div className="col-xs-4"><a href="#1"><img src="http://placehold.it/300/8bc34a/000000" className="img-responsive"/></a></div>
-														</div>
-														
-													
-														</div>
-														<a className="left carousel-control" href="#theCarousel" data-slide="prev"><i className="glyphicon glyphicon-chevron-left"></i></a>
-														<a className="right carousel-control" href="#theCarousel" data-slide="next"><i className="glyphicon glyphicon-chevron-right"></i></a>
-													</div>
-													</div>
-												</div>
-												</div>
-			
+											
 						</div>
 			
 					</div>
@@ -248,28 +248,55 @@ export default class Home extends Component{
 		</div>
 		<div className="col-md-4 col-xs-12" style={{"background": "#eee","min-height":"218px"}}>
 			<h3 className="heading">Testimonials</h3>
-			<div id="testimonial-slider" className="slider flexslider mb20" style={{"background": "#eee"}}>
-				<ul className="slides">
-					<li className="flex-active-slide" style={{"width": "100%","float": "left", "margin-right": "-100%",position: "relative",display: "list-item"}}><p className="text-center">SIMS educates students in a very creative way and encourages them to think out of the box. However, the college not only helps us to excel in the academics, but also focuses a lot on extracurricular activities.</p><p className="text-center"><strong>- Sagar</strong></p></li>
-					<li style={{width: "100%",float: "left","margin-right": "-100%", position: "relative", display: "none"}} className=""><p className="text-center">SIMS gave me the tools to go out in the world with confidence.The concepts I learned are priceless. The staff are one of the best who care for the overall growth of the students.</p><p className="text-center"><strong>- Rekha</strong></p></li>
-					<li style={{width: "100%",float: "left","margin-right": "-100%", position: "relative", display: "none"}} className=""><p className="text-center">At SIMS, you meet all the good, friendly people – from students to lecturers. You enjoy freedom to think, to express yourself and to succeed.</p><p className="text-center"><strong>- Neha</strong></p></li>
-				</ul>
-			<ol className="flex-control-nav flex-control-paging"><li><a className="flex-active">1</a></li><li><a className="">2</a></li><li><a className="">3</a></li></ol><ul className="flex-direction-nav"><li><a className="flex-prev" href="#">Previous</a></li><li><a className="flex-next" href="#">Next</a></li></ul></div>
-		</div>
+					<div id="myCarousel" className="carousel slide" data-ride="carousel">
+						
+							<ol className="carousel-indicators">
+								<li data-target="#myCarousel" data-slide-to="0" className="active"></li>
+								<li data-target="#myCarousel" data-slide-to="1"></li>
+								<li data-target="#myCarousel" data-slide-to="2"></li>
+							</ol>
+
+	
+							<div className="carousel-inner" style={{listStyleType:"none"}}>
+								<div className="item active">
+								<li style={{"width":"100%",float: "left","margin-right":"-100%", position:"relative" ,display: "list-item"}} className="flex-active-slide"><p className="text-center">SIMS gave me the tools to go out in the world with confidence.The concepts I learned are priceless. The staff are one of the best who care for the overall growth of the students.</p><p className="text-center"><strong>- Rekha</strong></p></li>
+								</div>
+
+								<div className="item">
+						<li style={{"width":"100%",float: "left","margin-right":"-100%", position:"relative" ,display: "list-item"}}className=""><p className="text-center">At SIMS, you meet all the good, friendly people – from students to lecturers. You enjoy freedom to think, to express yourself and to succeed.</p><p className="text-center"><strong>- Neha</strong></p></li>			</div>
+
+								<div className="item">
+							<li style={{"width":"100%",float: "left","margin-right":"-100%", position:"relative" ,display: "list-item"}} className="flex-active-slide"><p className="text-center">SIMS gave me the tools to go out in the world with confidence.The concepts I learned are priceless. The staff are one of the best who care for the overall growth of the students.</p><p className="text-center"><strong>- Rekha</strong></p></li>
+									</div>
+							</div>
+
+							
+							<a className="left carousel-control" href="#myCarousel" data-slide="prev">
+								<span className="glyphicon glyphicon-chevron-left"></span>
+								<span className="sr-only">Previous</span>
+							</a>
+							<a className="right carousel-control" href="#myCarousel" data-slide="next">
+								<span className="glyphicon glyphicon-chevron-right"></span>
+								<span className="sr-only">Next</span>
+							</a>
+							</div>
+			
+			
+				</div>
 		<div className="col-md-4 col-xs-12">
 			<h3 className="heading">Useful Links</h3>
 			<div className="col-md-6 col-xs-12">
-				<ul className="p0">
-					<li><a href="admission-ug-courses.mako"><i className="fa fa-caret-right"></i> Admissions</a></li>
-					<li><a href="ug-courses.mako"><i className="fa fa-caret-right"></i> Courses</a></li>
-					<li><a href="placements.mako"><i className="fa fa-caret-right"></i> Placements</a></li>
+				<ul className="p0" style={{textAlign:"left",listStyleType:"none"}}>
+					<li><a href="/Admissions"><i className="fa fa-caret-right"></i> Admissions</a></li>
+					<li><a href="/UGCoarse"><i className="fa fa-caret-right"></i> Courses</a></li>
+					<li><a href="/Placements"><i className="fa fa-caret-right"></i> Placements</a></li>
 				</ul>
 			</div>
-			<div className="col-md-6 col-xs-12">
-				<ul className="p0">
-					<li><a href="research-facilities.mako"><i className="fa fa-caret-right"></i> Research Facilities</a></li>
-					<li><a href="value-added-courses.mako"><i className="fa fa-caret-right"></i> Value Added Courses</a></li>
-					<li><a href="downloads.mako"><i className="fa fa-caret-right"></i> Downloads</a></li>
+			<div className="col-md-6 col-xs-12" >
+				<ul className="p0" style={{textAlign:"left",listStyleType:"none"}}>
+					<li><a href="/Research"><i className="fa fa-caret-right"></i> Research Facilities</a></li>
+					<li><a href="/ValueAdded"><i className="fa fa-caret-right"></i> Value Added Courses</a></li>
+					<li><a href="/Downloads"><i className="fa fa-caret-right"></i> Downloads</a></li>
 				</ul>
 			</div>
 			<div className="col-md-6 col-xs-12 mt20">
@@ -277,15 +304,15 @@ export default class Home extends Component{
 			</div>
 			<div className="col-md-6 col-xs-12 mt20">
 				<p style={{float:"right"}}>
-					<a target="_blank" href="#"><img className="img-responsive" src="assets/images/social/ln-icon.png" alt=""/></a>
-					<a target="_blank" href="#"><img className="img-responsive" src="assets/images/social/ins-icon.png" alt=""/></a>
+					<a target="_blank" href="#"><img className="img-responsive" src="http://res.cloudinary.com/dvl9i5pry/image/upload/v1507104192/ln-icon_ogfop3.png" alt=""/></a>
+					<a target="_blank" href="#"><img className="img-responsive" src="http://res.cloudinary.com/dvl9i5pry/image/upload/v1507104233/ins-icon_wzlvng.png" alt=""/></a>
 				</p>
 				<p style={{float:"right"}}>
-					<a target="_blank" href="#"><img className="img-responsive" src="assets/images/social/tw-icon.png" alt=""/></a>
-					<a target="_blank" href="https://www.youtube.com/channel/UCDC5YDdZO_KG5vN4LEEry3g/"><img className="img-responsive" src="assets/images/social/yb-icon.png" alt=""/></a>			
+					<a target="_blank" href="#"><img className="img-responsive" src="http://res.cloudinary.com/dvl9i5pry/image/upload/v1507104151/tw-icon_g8zdwv.png" alt=""/></a>
+					<a target="_blank" href="https://www.youtube.com/channel/UCDC5YDdZO_KG5vN4LEEry3g/"><img className="img-responsive" src="http://res.cloudinary.com/dvl9i5pry/image/upload/v1507104111/yb-icon_g3rtll.png" alt=""/></a>			
 				</p>
 				<p style={{float:"right"}}>
-					<a target="_blank" href="https://www.facebook.com/Soundarya-Institute-of-Management-Science-519268908134711/"><img className="img-responsive" src="assets/images/social/fb-icon.png" alt=""/></a>
+					<a target="_blank" href="https://www.facebook.com/Soundarya-Institute-of-Management-Science-519268908134711/"><img className="img-responsive" src="http://res.cloudinary.com/dvl9i5pry/image/upload/v1507104058/fb-icon_js7fya.png" alt=""/></a>
 				</p>
 			</div>
 		</div>

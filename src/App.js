@@ -33,6 +33,7 @@ import Clubs from './Campus/Clubs';
 import Unique from './Campus/Unique';
 import Hostels from './Campus/Hostels';
 import Careers from './Home/Carrers';
+import News from './Home/News';
 import Gallery from './Gallery/Gallery';
 class App extends Component {
   render() {
@@ -72,6 +73,7 @@ class App extends Component {
                                       <Route exact path="/Contact" component={Contact} />
                                        <Route exact path="/Gallery" component={Gallery} />
                                            <Route exact path="/Carrer" component={Careers} />
+                                              <Route exact path="/News" component={News} />
             </Switch>
         <Footer/>
       </div>

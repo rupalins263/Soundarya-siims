@@ -12,10 +12,16 @@
             <meta name="author" content=""> 
 	       <meta name="robots" content="noodp, noydir">
             <meta name="google-site-verification" content="bOrdcxL11QEaFL2fW84yy5exGkc_pRgso9TonAHmHVo">   
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
             <link rel="shortcut icon" href="http://res.cloudinary.com/dvl9i5pry/image/upload/v1506674025/logo_qucn59.jpg">  
             <link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet" type="text/css">   
             <!-- Global CSS -->
             <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.css">
             
             <!-- Plugins CSS -->    
     
@@ -32,10 +38,7 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
 <!-- jQuery library -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
-<!-- Latest compiled JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>   
+  
            <style type="text/css">
 				p{font-size:14px !important}
                 h3.text.sub-heading.plus-tab {
@@ -83,6 +86,23 @@
 
   ga('create', 'UA-75761596-2', 'auto');
   ga('send', 'pageview');
+  		$('.owl-carousel2').owlCarousel({
+					loop:false,
+					margin:10,
+					nav:true,
+					mouseDrag:false,
+					responsive:{
+						0:{
+							items:1
+						},
+						600:{
+							items:3
+						},
+						1000:{
+							items:3
+						}
+					}
+				});
 
 
 

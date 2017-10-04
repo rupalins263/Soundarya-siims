@@ -29,19 +29,20 @@ export default class Downloads extends Component{
 									<th>Download Links</th>
 								</tr></thead>
                                 <tbody>
+               
                                     <tr>
                                         <td>College Application </td>
-                                        <td><a href="send_attachment.mako?attachment_type=SIMS-application-form"><i className="fa fa-file-pdf-o"></i> Download PDF</a></td>
+                                        <td><a href="http://zenopsys.net/soundarya_forms/sims/downloads/SIMS-application-form.pd"><i className="fa fa-file-pdf-o"></i> Download PDF</a></td>
                                     </tr>
                                     
                                     <tr>
                                         <td>Question Papers </td>
                                         <td>
-											<a style={{"padding":"5px 0",width:"100%",float:"left"}} href="send_attachment.mako?attachment_type=BBA-QP"><i className="fa fa-file-pdf-o"></i> Download BBA Papers</a><br/>
-											<a style={{"padding":"5px 0",width:"100%",float:"left"}} href="send_attachment.mako?attachment_type=BCA-QP"><i className="fa fa-file-pdf-o"></i> Download BCA Papers</a><br/>
-											<a style={{"padding":"5px 0",width:"100%",float:"left"}} href="send_attachment.mako?attachment_type=BCOM-QP"><i className="fa fa-file-pdf-o"></i> Download B.Com Papers</a><br/>
-											<a style={{"padding":"5px 0",width:"100%",float:"left"}} href="send_attachment.mako?attachment_type=LANGUAGE-QP"><i className="fa fa-file-pdf-o"></i> Download Language Papers</a><br/>
-											<a style={{"padding":"5px 0",width:"100%",float:"left"}} href="send_attachment.mako?attachment_type=QMB-QP"><i className="fa fa-file-pdf-o"></i> Download QMB Papers</a>
+											<a style={{"padding":"5px 0",width:"100%",float:"left"}} href="http://zenopsys.net/soundarya_forms/sims/downloads/BBA-QP.zip"><i className="fa fa-file-pdf-o"></i> Download BBA Papers</a><br/>
+											<a style={{"padding":"5px 0",width:"100%",float:"left"}} href="http://zenopsys.net/soundarya_forms/sims/downloads/BCA-QP.zip"><i className="fa fa-file-pdf-o"></i> Download BCA Papers</a><br/>
+											<a style={{"padding":"5px 0",width:"100%",float:"left"}} href="http://zenopsys.net/soundarya_forms/sims/downloads/BCOM-QP.zipf"><i className="fa fa-file-pdf-o"></i> Download B.Com Papers</a><br/>
+											<a style={{"padding":"5px 0",width:"100%",float:"left"}} href="http://zenopsys.net/soundarya_forms/sims/downloads/LANGUAGE-QP.zip"><i className="fa fa-file-pdf-o"></i> Download Language Papers</a><br/>
+											<a style={{"padding":"5px 0",width:"100%",float:"left"}} href=" http://zenopsys.net/soundarya_forms/sims/downloads/QMB-QP.zip"><i className="fa fa-file-pdf-o"></i> Download QMB Papers</a>
 										</td>                                    
                                     </tr>
                                     <tr>
@@ -51,19 +52,19 @@ export default class Downloads extends Component{
 									<tr>
                                         <td>Syllabus</td>
                                         <td>
-											<a style={{"padding":"5px 0",width:"100%",float:"left"}} href="send_attachment.mako?attachment_type=BBA-CBCS-SYLLABUS"><i className="fa fa-file-pdf-o"></i> Download BBA Syllabus</a><br/>
-											<a style={{"padding":"5px 0",width:"100%",float:"left"}} href="send_attachment.mako?attachment_type=BCA"><i className="fa fa-file-pdf-o"></i> Download BCA Syllabus</a><br/>
-											<a style={{"padding":"5px 0",width:"100%",float:"left"}} href="send_attachment.mako?attachment_type=BCOM-CBCS-SYLLABUS"><i className="fa fa-file-pdf-o"></i> Download B.Com Syllabus</a><br/>
-											<a style={{"padding":"5px 0",width:"100%",float:"left"}} href="send_attachment.mako?attachment_type=Bsc"><i className="fa fa-file-pdf-o"></i> Download B.Sc Syllabus</a><br/>
+											<a style={{"padding":"5px 0",width:"100%",float:"left"}} href="http://zenopsys.net/soundarya_forms/sims/downloads/BBA-CBCS-SYLLABUS.pdf"><i className="fa fa-file-pdf-o"></i> Download BBA Syllabus</a><br/>
+											<a style={{"padding":"5px 0",width:"100%",float:"left"}} href="http://zenopsys.net/soundarya_forms/sims/downloads/BCA.pdf"><i className="fa fa-file-pdf-o"></i> Download BCA Syllabus</a><br/>
+											<a style={{"padding":"5px 0",width:"100%",float:"left"}} href="http://zenopsys.net/soundarya_forms/sims/downloads/BCOM-CBCS-SYLLABUS.pdf"><i className="fa fa-file-pdf-o"></i> Download B.Com Syllabus</a><br/>
+											<a style={{"padding":"5px 0",width:"100%",float:"left"}} href="http://zenopsys.net/soundarya_forms/sims/downloads/Bsc.zip"><i className="fa fa-file-pdf-o"></i> Download B.Sc Syllabus</a><br/>
 										</td>                                    
                                     </tr>
 									<tr>
                                         <td>Brochure</td>
-                                        <td><a href="send_attachment.mako?attachment_type=brochure"><i className="fa fa-file-pdf-o"></i> Download PDF</a></td>                                    
+                                        <td><a href="http://zenopsys.net/soundarya_forms/sims/downloads/brochure.pdf"><i className="fa fa-file-pdf-o"></i> Download PDF</a></td>                                    
                                     </tr>
 									<tr>
                                         <td>Leaflet</td>
-                                        <td><a href="send_attachment.mako?attachment_type=leaflet"><i className="fa fa-file-pdf-o"></i> Download PDF</a></td>                                    
+                                        <td><a href="http://zenopsys.net/soundarya_forms/sims/downloads/leaflet.pdf"><i className="fa fa-file-pdf-o"></i> Download PDF</a></td>                                    
                                     </tr>
                                 </tbody>
                             </table>

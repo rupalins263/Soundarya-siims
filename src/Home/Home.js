@@ -23,8 +23,11 @@ export default class Home extends Component{
          
              
     }
-	comonentDidMount(){
+	componentDidMount(){
+	
 
+
+         
 	}
     render(){
 		         let val="";
@@ -168,60 +171,90 @@ export default class Home extends Component{
 				<div className="col-md-3 col-xs-12 program-left">
 					<h4 className="sub-headings">Our Programs</h4>
 					<p>We have introduced 5 new programs this year. Learn More &amp; Apply</p>
-					<a href="ug-courses.mako" className="btn btn-primary trans-btn"> All Programs &gt;</a>
+					<a href="/UGCoarse" className="btn btn-primary trans-btn"> All Programs &gt;</a>
 				</div>
-				<div className="col-md-9 col-xs-12 p0">
-					<div className="programs owl-carousel owl-theme owl-responsive-1024 owl-loaded">
-						
-						
-						
-						
-						<div className="owl-stage-outer">
-									<div className="col-md-12 ">
-													<div className="carousel slide" id="myCarousel">
-													<div className="carousel-inner">
-														<div className="item active">
-														<div className="col-md-4"><a href="#"><img src="http://zenopsys.net/soundarya_forms/sims_images/Home/bcom_HomeBottomSlideShow.jpg" className="img-responsive"/></a></div>
-														</div>
-														<div className="item ">
-														<div className="col-md-4"><a href="#"><img src="http://zenopsys.net/soundarya_forms/sims_images/Home/bba_HomeBottomSlideShow.jpg" className="img-responsive"/></a></div>
-														</div>
-														<div className="item">
-														<div className="col-md-4"><a href="#"><img src="http://zenopsys.net/soundarya_forms/sims_images/Home/bca_HomebottomSlideShow.jpg" className="img-responsive"/></a></div>
-														</div>
-														<div className="item">
-														<div className="col-md-4"><a href="#"><img src="http://zenopsys.net/soundarya_forms/sims_images/Home/mcom_HomebottomSlideShow.jpg" className="img-responsive"/></a></div>
-														</div>
-													
-													</div>
-													<a className="left carousel-control" href="#myCarousel" data-slide="prev"><i className="glyphicon glyphicon-chevron-left"></i></a>
-													<a className="right carousel-control" href="#myCarousel" data-slide="next"><i className="glyphicon glyphicon-chevron-right"></i></a>
-													</div>
-													</div>
+				   <div id="myCarousel" className="col-md-9 carousel slide">
+                
+             
+                                        <ol className="carousel-indicators">
+                                            <li data-target="#myCarousel" data-slide-to="0" className="active"></li>
+                                            <li data-target="#myCarousel" data-slide-to="1"></li>
+                                            <li data-target="#myCarousel" data-slide-to="2"></li>
+                            
+                                    
+                                        </ol>
+                <div className="carousel-inner">
+                    <div className="item active">
+                        <div className="row">
+                            <div className="col-sm-4"><a ><img src="http://zenopsys.net/soundarya_forms/sims_images/Home/bcom_HomeBottomSlideShow.jpg" alt="Image" className="img-responsive"/></a>
+                            </div>
+                            <div className="col-sm-4"><a ><img src="http://zenopsys.net/soundarya_forms/sims_images/Home/bba_HomeBottomSlideShow.jpg" alt="Image" className="img-responsive"/></a>
+                            </div>
+                            <div className="col-sm-4"><a ><img src="http://zenopsys.net/soundarya_forms/sims_images/Home/bca_HomebottomSlideShow.jpg" alt="Image" className="img-responsive"/></a>
+                            </div>
+                          
+                        </div>
+                      
+                    </div>
+                    {/*<!--/item-->*/}
+                    <div className="item">
+                        <div className="row">
+                            <div className="col-sm-3"><a href="#x" className="thumbnail"><img src="http://zenopsys.net/soundarya_forms/sims_images/Home/mcom_HomebottomSlideShow.jpg" alt="Image" className="img-responsive"/></a>
+                            </div>
+                            <div className="col-sm-3"><a href="#x" className="thumbnail"><img src="http://placehold.it/250x250" alt="Image" className="img-responsive"/></a>
+                            </div>
+                            <div className="col-sm-3"><a href="#x" className="thumbnail"><img src="http://placehold.it/250x250" alt="Image" className="img-responsive"/></a>
+                            </div>
+                            <div className="col-sm-3"><a href="#x" className="thumbnail"><img src="http://placehold.it/250x250" alt="Image" className="img-responsive"/></a>
+                            </div>
+                        </div>
+                        {/*<!--/row-->*/}
+                    </div>
+                    {/*<!--/item-->*/}
+                    <div className="item">
+                        <div className="row">
+                            <div className="col-sm-3"><a href="#x" className="thumbnail"><img src="http://placehold.it/250x250" alt="Image" className="img-responsive"/></a>
+                            </div>
+                            <div className="col-sm-3"><a href="#x" className="thumbnail"><img src="http://placehold.it/250x250" alt="Image" className="img-responsive"/></a>
+                            </div>
+                            <div className="col-sm-3"><a href="#x" className="thumbnail"><img src="http://placehold.it/250x250" alt="Image" className="img-responsive"/></a>
+                            </div>
+                            <div className="col-sm-3"><a href="#x" className="thumbnail"><img src="http://placehold.it/250x250" alt="Image" className="img-responsive"/></a>
+                            </div>
+                        </div>
+                        {/*<!--/row-->*/}
+                    </div>
+                    {/*<!--/item-->*/}
+                </div>
+                {/*<!--/carousel-inner--> <a className="left carousel-control" href="#myCarousel" data-slide="prev">‹</a>*/}
 
-
-											
-						</div>
+              	<a className="left carousel-control" href="#myCarousel" data-slide="prev">
+											<span className="glyphicon glyphicon-chevron-left"></span>
+											<span className="sr-only">Previous</span>
+									</a>
+									<a className="right carousel-control" href="#myCarousel" data-slide="next">
+											<span className="glyphicon glyphicon-chevron-right"></span>
+											<span className="sr-only">Next</span>
+									</a>
+            </div>
 			
-					</div>
-				</div>
 			</div>
 		</div>
 		<div className="col-md-3 col-xs-12 col-sm-6">
 			<div className="col-md-12 col-xs-12 col-sm-12 events all-events">
 				<h3 className="heading">Events</h3>
-				<div className="section-content">
+				<div className="section-content" style={{marginTop:"10px"}}>
 							<div className="event-item">
 								<p className="date-label">
 									<span className="month">Aug</span>
 									<span className="date-number">19</span>
 								</p>
 								<div className="details">
-									<h2 className="title"><a href="news-single.mako?news_id=1">National Level Seminar on G S T &amp; IT' S IMPLICATIONS </a></h2>
+									<h2 className="title" style={{"font-size": "18px"}}>National Level Seminar on G S T &amp; IT' S IMPLICATIONS</h2>
 									<p className="location"><i className="fa fa-map-marker"></i>Soundarya Institute of Management and Science</p>                            
 								</div>
 							</div>
-					<a className="read-more" href="news-events.mako">All events<i className="fa fa-chevron-right"></i></a>
+					<a className="read-more" href="/News">All events<i className="fa fa-chevron-right"></i></a>
 				</div>
 			</div>
 		</div>
@@ -236,7 +269,7 @@ export default class Home extends Component{
 				<div className="col-md-3 col-md-offset-2 col-xs-12">
 					<h3 className="heading">Join The Experience</h3>
 					<p className="text-justify">SIMS is committed to excellence in education that meets the expectations of the students aspiring for enriching academic and professional careers.</p>
-					<a href="admission-ug-courses.mako" className="btn btn-primary more-btn">Read More &gt;&gt;</a>
+					<a href="/Admissions" className="btn btn-primary more-btn">Read More &gt;&gt;</a>
 				</div>
 			</div>
 		</div>

@@ -12,7 +12,7 @@ export default class Downloads extends Component{
                 <div className="breadcrumbs pull-right">
                     <ul className="breadcrumbs-list">
                         <li className="breadcrumbs-label">You are here:</li>
-                        <li><a href="index.html">Home</a><i className="fa fa-angle-right"></i></li>
+                        <li><a href="/">Home</a><i className="fa fa-angle-right"></i></li>
                         <li className="current">Contact Us</li>
                     </ul>
                 </div>
@@ -76,14 +76,14 @@ export default class Downloads extends Component{
                         <section className="widget">
                             <h3 className="title">All Enquiries</h3>
                             <p className="tel"><i className="fa fa-phone"></i>Tel: 87227600601 / 080-28390260</p>
-                            <p className="email"><i className="fa fa-envelope"></i>Email: <a href="#">degreesoundarya@gmail.com</a></p>
+                            <p className="email"><i className="fa fa-envelope"></i>Email: <a href="mailto:degreesoundarya@gmail.com">degreesoundarya@gmail.com</a></p>
                         </section>   
 
                         <section className="widget">
                             <h3 className="title">Our Institutions</h3>
                             <p><a href="http://school.soundaryainstitutions.in">Soundarya School</a></p>
                             <p><a href="http://puc.soundaryainstitutions.in">Soundarya Composite PU College</a></p>
-                            <p><a href="#">Soundarya Institute of Management &amp; Science</a></p>
+                            <p><a href="/">Soundarya Institute of Management &amp; Science</a></p>
                             <p><a href="http://central.soundaryainstitutions.in">Soundarya Central School (CBSE)</a></p>
                         </section>   
 

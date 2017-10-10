@@ -35,6 +35,8 @@ import Hostels from './Campus/Hostels';
 import Careers from './Home/Carrers';
 import News from './Home/News';
 import Gallery from './Gallery/Gallery';
+import Privacy from './About/Privacy';
+import NewsSingle from './About/NewsSingle';
 class App extends Component {
   render() {
     return (
@@ -74,6 +76,8 @@ class App extends Component {
                                        <Route exact path="/Gallery" component={Gallery} />
                                            <Route exact path="/Carrer" component={Careers} />
                                               <Route exact path="/News" component={News} />
+                                                  <Route exact path="/Privacy" component={Privacy} />
+                                                       <Route  path="/NewsSingle" component={NewsSingle}/>
             </Switch>
         <Footer/>
       </div>

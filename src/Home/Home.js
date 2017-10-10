@@ -8,11 +8,12 @@ export default class Home extends Component{
         super();
         this.state={
             corosel:[],
+			 events:[]
            
         }
     }
     componentWillMount(){
-         axios.get(`http://198.12.154.44:3333/PUC/Image/1`)
+         axios.get(`http://198.12.154.44:3333/SIMS/Image/1`)
              .then((res)=>{
                     console.log(res)
                     this.setState({
@@ -25,11 +26,71 @@ export default class Home extends Component{
     }
 	componentDidMount(){
 	
-
+		 axios.get(`http://198.12.154.44:3333/SIMS/Events`)
+             .then((res)=>{
+                    console.log(res)
+                    this.setState({
+                        events:res.data.response,
+                       
+                    })
+             })
 
          
 	}
     render(){
+		let events="";
+        if(this.state.events.length>0){
+            events=this.state.events.map((item,index)=>{
+                if(index<1){
+                    var month=new Date(item.eventdate).toDateString().split(" ")[1];
+                     var day=new Date(item.eventdate).toDateString().split(" ")[2];
+                     var href=`/NewsSingle?id=${item.eventid}`;
+                    return(
+                 			 <div className="col-md-3 col-xs-12 col-sm-6">
+								<div className="col-md-12 col-xs-12 col-sm-12 events all-events">
+									<h3 className="heading">Events</h3>
+									<div className="section-content" style={{marginTop:"10px"}}>
+												<div className="event-item">
+													<p className="date-label">
+														<span className="month">{month}</span>
+														<span className="date-number">{day}</span>
+													</p>
+													<div className="details">
+														<h2 className="title" style={{"font-size": "18px"}}><a href={href}>{item.eventname}</a></h2>
+														<p className="location"><i className="fa fa-map-marker"></i>Soundarya Institute of Management and Science</p>                            
+													</div>
+												</div>
+										<a className="read-more" href="/News">All events<i className="fa fa-chevron-right"></i></a>
+										</div>
+									</div>
+								</div>
+              
+                                 )
+                          }
+                     
+                        else{
+                            return (	 <div className="col-md-3 col-xs-12 col-sm-6">
+								<div className="col-md-12 col-xs-12 col-sm-12 events all-events">
+									<h3 className="heading">Events</h3>
+									<div className="section-content" style={{marginTop:"10px"}}>
+												<div className="event-item">
+													<p className="date-label">
+													
+													</p>
+													<div className="details">
+														</div>
+												</div>
+										<a className="read-more" href="/News">All events<i className="fa fa-chevron-right"></i></a>
+										</div>
+									</div>
+								</div>)
+
+                            }
+                
+             
+                           
+            })
+        }
 		         let val="";
 		  let num="";
                 if(this.state.corosel.length>0)
@@ -240,24 +301,7 @@ export default class Home extends Component{
 			
 			</div>
 		</div>
-		<div className="col-md-3 col-xs-12 col-sm-6">
-			<div className="col-md-12 col-xs-12 col-sm-12 events all-events">
-				<h3 className="heading">Events</h3>
-				<div className="section-content" style={{marginTop:"10px"}}>
-							<div className="event-item">
-								<p className="date-label">
-									<span className="month">Aug</span>
-									<span className="date-number">19</span>
-								</p>
-								<div className="details">
-									<h2 className="title" style={{"font-size": "18px"}}>National Level Seminar on G S T &amp; IT' S IMPLICATIONS</h2>
-									<p className="location"><i className="fa fa-map-marker"></i>Soundarya Institute of Management and Science</p>                            
-								</div>
-							</div>
-					<a className="read-more" href="/News">All events<i className="fa fa-chevron-right"></i></a>
-				</div>
-			</div>
-		</div>
+		{events}
 	</div>
 	<div className="row cols-wrapper">
 		<div className="col-md-12 col-xs-12">

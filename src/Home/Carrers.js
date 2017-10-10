@@ -13,7 +13,7 @@ export default class Career extends Component{
                     <div class="breadcrumbs pull-right">
                         <ul class="breadcrumbs-list">
                             <li class="breadcrumbs-label">You are here:</li>
-                            <li><a href="index.html">Home</a><i class="fa fa-angle-right"></i></li>
+                            <li><a href="/">Home</a><i class="fa fa-angle-right"></i></li>
                             <li class="current">Careers</li>
                         </ul>
                     </div>

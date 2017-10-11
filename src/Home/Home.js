@@ -178,7 +178,7 @@ export default class Home extends Component{
 		<div className="col-md-3 col-xs-12 col-sm-6">
 			<h3 className="heading">SIMS experience</h3>
 					
-		
+					
                                 <div id="myCarousel" className="carousel slide" data-ride="carousel">
  
                                         <ol className="carousel-indicators">
@@ -219,6 +219,7 @@ export default class Home extends Component{
                                         <span className="sr-only">Next</span>
                                     </a>*/}
                                     </div>
+							
 
 
 
@@ -234,25 +235,28 @@ export default class Home extends Component{
 					<p>We have introduced 5 new programs this year. Learn More &amp; Apply</p>
 					<a href="/UGCoarse" className="btn btn-primary trans-btn"> All Programs &gt;</a>
 				</div>
-				   <div id="myCarousel" className="col-md-9 carousel slide">
+				   <div id="myCarouseli" className="col-md-9 carousel slide">
                 
              
-                                        <ol className="carousel-indicators">
-                                            <li data-target="#myCarousel" data-slide-to="0" className="active"></li>
-                                            <li data-target="#myCarousel" data-slide-to="1"></li>
-                                            <li data-target="#myCarousel" data-slide-to="2"></li>
+                                        {/*<ol className="carouseol-indicators">
+                                            <li data-target="#myCarouseli" data-slide-to="" className="active"></li>
+                                            <li data-target="#myCarouseli" data-slide-to=""></li>
+                                            <li data-target="#myCarouseli" data-slide-to=""></li>
                             
                                     
-                                        </ol>
+                                        </ol>*/}
                 <div className="carousel-inner">
                     <div className="item active">
                         <div className="row">
-                            <div className="col-sm-4"><a ><img src="http://zenopsys.net/soundarya_forms/sims_images/Home/bcom_HomeBottomSlideShow.jpg" alt="Image" className="img-responsive"/></a>
+                            <div className="col-sm-4"><a ><img src="http://zenopsys.net/soundarya_forms/sims_images/Home/bcom_HomeBottomSlideShow.jpg" alt="Image" /></a>
+							<h4 class="program-title">B.Com</h4>
+						    </div>
+                            <div className="col-sm-4"><a ><img src="http://zenopsys.net/soundarya_forms/sims_images/Home/bba_HomeBottomSlideShow.jpg" alt="Image" /></a>
+							 <h4 class="program-title">BBA</h4>   
                             </div>
-                            <div className="col-sm-4"><a ><img src="http://zenopsys.net/soundarya_forms/sims_images/Home/bba_HomeBottomSlideShow.jpg" alt="Image" className="img-responsive"/></a>
-                            </div>
-                            <div className="col-sm-4"><a ><img src="http://zenopsys.net/soundarya_forms/sims_images/Home/bca_HomebottomSlideShow.jpg" alt="Image" className="img-responsive"/></a>
-                            </div>
+                            <div className="col-sm-4"><a ><img src="http://zenopsys.net/soundarya_forms/sims_images/Home/bca_HomebottomSlideShow.jpg" alt="Image" /></a>
+                            <h4 class="program-title">BCA</h4>   
+						    </div>
                           
                         </div>
                       
@@ -260,28 +264,33 @@ export default class Home extends Component{
                     {/*<!--/item-->*/}
                     <div className="item">
                         <div className="row">
-                            <div className="col-sm-3"><a href="#x" className="thumbnail"><img src="http://zenopsys.net/soundarya_forms/sims_images/Home/mcom_HomebottomSlideShow.jpg" alt="Image" className="img-responsive"/></a>
-                            </div>
-                            <div className="col-sm-3"><a href="#x" className="thumbnail"><img src="http://placehold.it/250x250" alt="Image" className="img-responsive"/></a>
-                            </div>
-                            <div className="col-sm-3"><a href="#x" className="thumbnail"><img src="http://placehold.it/250x250" alt="Image" className="img-responsive"/></a>
-                            </div>
-                            <div className="col-sm-3"><a href="#x" className="thumbnail"><img src="http://placehold.it/250x250" alt="Image" className="img-responsive"/></a>
-                            </div>
+							<div className="col-sm-4 col-md-4 col-lg-4"><a ><img src="http://zenopsys.net/soundarya_forms/sims_images/Home/bba_HomeBottomSlideShow.jpg" alt="Image" /></a>
+								             <h4 class="program-title">BBA</h4>      
+								              </div>
+							 <div className="col-sm-4 col-md-4 col-lg-4"><a ><img style={{width:"117%"}} src="http://zenopsys.net/soundarya_forms/sims_images/Home/mcom_HomebottomSlideShow.jpg" alt="Image" /></a>
+                            <h4 class="program-title">M.Com</h4> 
+							</div>
+                             <div className="col-sm-4 col-md-4 col-lg-4"><a ><img src="http://zenopsys.net/soundarya_forms/sims_images/Home/bcom_HomeBottomSlideShow.jpg" alt="Image" /></a>
+                                <h4 class="program-title">B.Com</h4> 
+						    </div>
+                           
+                          
                         </div>
                         {/*<!--/row-->*/}
                     </div>
                     {/*<!--/item-->*/}
                     <div className="item">
                         <div className="row">
-                            <div className="col-sm-3"><a href="#x" className="thumbnail"><img src="http://placehold.it/250x250" alt="Image" className="img-responsive"/></a>
-                            </div>
-                            <div className="col-sm-3"><a href="#x" className="thumbnail"><img src="http://placehold.it/250x250" alt="Image" className="img-responsive"/></a>
-                            </div>
-                            <div className="col-sm-3"><a href="#x" className="thumbnail"><img src="http://placehold.it/250x250" alt="Image" className="img-responsive"/></a>
-                            </div>
-                            <div className="col-sm-3"><a href="#x" className="thumbnail"><img src="http://placehold.it/250x250" alt="Image" className="img-responsive"/></a>
-                            </div>
+							<div className="col-sm-4 col-md-4 col-lg-4"><a ><img src="http://zenopsys.net/soundarya_forms/sims_images/Home/bba_HomeBottomSlideShow.jpg" alt="Image"/></a>
+							   <h4 class="program-title">BBA</h4>    
+                            </div> 
+                             <div className="col-sm-4 col-md-4 col-lg-4"><a ><img src="http://zenopsys.net/soundarya_forms/sims_images/Home/bcom_HomeBottomSlideShow.jpg" alt="Image" /></a>
+                           <h4 class="program-title">B.Com</h4> 
+						    </div>
+                            
+							 <div className="col-sm-4 col-md-4 col-lg-4"><a><img style={{width:"117%"}} src="http://zenopsys.net/soundarya_forms/sims_images/Home/mcom_HomebottomSlideShow.jpg" alt="Image"/></a>
+                           <h4 class="program-title">M.Com</h4> 
+						    </div>
                         </div>
                         {/*<!--/row-->*/}
                     </div>
@@ -289,11 +298,11 @@ export default class Home extends Component{
                 </div>
                 {/*<!--/carousel-inner--> <a className="left carousel-control" href="#myCarousel" data-slide="prev">‹</a>*/}
 
-              	<a className="left carousel-control" href="#myCarousel" data-slide="prev">
+              	<a className="left carousel-control" href="#myCarouseli" data-slide="prev">
 											<span className="glyphicon glyphicon-chevron-left"></span>
 											<span className="sr-only">Previous</span>
 									</a>
-									<a className="right carousel-control" href="#myCarousel" data-slide="next">
+									<a className="right carousel-control" href="#myCarouseli" data-slide="next">
 											<span className="glyphicon glyphicon-chevron-right"></span>
 											<span className="sr-only">Next</span>
 									</a>
@@ -325,12 +334,12 @@ export default class Home extends Component{
 		</div>
 		<div className="col-md-4 col-xs-12" style={{"background": "#eee","min-height":"218px"}}>
 			<h3 className="heading">Testimonials</h3>
-					<div id="myCarousel" className="carousel slide" data-ride="carousel">
+					<div id="myCarouselo" className="carousel slide" data-ride="carousel">
 						
 							<ol className="carousel-indicators">
-								<li data-target="#myCarousel" data-slide-to="0" className="active"></li>
-								<li data-target="#myCarousel" data-slide-to="1"></li>
-								<li data-target="#myCarousel" data-slide-to="2"></li>
+								<li data-target="#myCarouselo" data-slide-to="0" className="active"></li>
+								<li data-target="#myCarouselo" data-slide-to="1"></li>
+								<li data-target="#myCarouselo" data-slide-to="2"></li>
 							</ol>
 
 	
@@ -348,11 +357,11 @@ export default class Home extends Component{
 							</div>
 
 							
-							<a className="left carousel-control" href="#myCarousel" data-slide="prev">
+							<a className="left carousel-control" href="#myCarouselo" data-slide="prev">
 								<span className="glyphicon glyphicon-chevron-left"></span>
 								<span className="sr-only">Previous</span>
 							</a>
-							<a className="right carousel-control" href="#myCarousel" data-slide="next">
+							<a className="right carousel-control" href="#myCarouselo" data-slide="next">
 								<span className="glyphicon glyphicon-chevron-right"></span>
 								<span className="sr-only">Next</span>
 							</a>

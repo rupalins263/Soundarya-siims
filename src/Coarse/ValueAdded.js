@@ -13,7 +13,7 @@ export default class Research extends Component{
                     <div className="breadcrumbs pull-right">
                         <ul className="breadcrumbs-list">
                             <li className="breadcrumbs-label">You are here:</li>
-                            <li><a href="index.mako">Home</a><i className="fa fa-angle-right"></i></li>
+                            <li><a href="/">Home</a><i className="fa fa-angle-right"></i></li>
                             <li className="current">Value Added Courses</li>
                         </ul>
                     </div>
@@ -47,10 +47,10 @@ export default class Research extends Component{
                             <section className="widget has-divider">
                                 <h3 className="title">Related Links</h3>
                                 <ul className="job-list custom-list-style">
-                                        <li><i className="fa fa-caret-right"></i><a href="value-added-courses.mako">Curriculum</a></li>
-                                        <li><i className="fa fa-caret-right"></i><a href="research-facilities.mako">Assesment Plan </a></li>
-                                        <li><i className="fa fa-caret-right"></i><a href="faculty.mako">Teaching Staff</a></li>
-                                </ul>
+                                     <li><i className="fa fa-caret-right"></i><a href="/SpecialCoarse">Curriculum</a></li>
+                                        <li><i className="fa fa-caret-right"></i><a href="/Research">Assesment Plan </a></li>
+                                        <li><i className="fa fa-caret-right"></i><a href="/Faculty">Teaching Staff</a></li>
+                                  </ul>
                                 
                             </section>
                             

@@ -24,7 +24,7 @@ export default class Downloads extends Component{
                         
                         <p>We’d love to hear from you. Please fill in the form below and we will get in touch with you at the earliest.</p>
                         
-                        <form method="POST" action="contact.mako" id="contact-form">
+                        <form  id="contact-form">
                             <div className="form-group name">
                                 <label for="name">Name</label>
                                 <input id="name" type="text" className="form-control req_field" placeholder="Enter your name"/>

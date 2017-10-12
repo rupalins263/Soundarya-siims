@@ -48,16 +48,21 @@ export default class Home extends Component{
                     return(
                  			 <div className="col-md-3 col-xs-12 col-sm-6">
 								<div className="col-md-12 col-xs-12 col-sm-12 events all-events">
-									<h3 className="heading">Events</h3>
-									<div className="section-content" style={{marginTop:"10px"}}>
+									<h3 className="heading" style={{textAlign:"left"}}>Events</h3>
+									<div className="section-content" >
 												<div className="event-item">
-													<p className="date-label">
+													<div className="col-md-3 col-sm-3">
+												
+														<div className="date-label">
 														<span className="month">{month}</span>
 														<span className="date-number">{day}</span>
-													</p>
-													<div className="details">
-														<h2 className="title" style={{"font-size": "18px"}}><a href={href}>{item.eventname}</a></h2>
+														</div>
+													</div>
+													<div  className="col-md-9 col-sm-9">
+													<div className="details" >
+														<h2 className="title" style={{"font-size": "20px"}}><a href={href}>{item.eventname}</a></h2>
 														<p className="location"><i className="fa fa-map-marker"></i>Soundarya Institute of Management and Science</p>                            
+													</div>
 													</div>
 												</div>
 										<a className="read-more" href="/News">All events<i className="fa fa-chevron-right"></i></a>
@@ -179,7 +184,7 @@ export default class Home extends Component{
 			<h3 className="heading">SIMS experience</h3>
 					
 					
-                                <div id="myCarousel" className="carousel slide" data-ride="carousel">
+                                <div id="myCarousel" className="carousel slide" data-ride="carousel" data-interval="200">
  
                                         <ol className="carousel-indicators">
                                             <li data-target="#myCarousel" data-slide-to="0" className="active"></li>

@@ -37,6 +37,7 @@ import News from './Home/News';
 import Gallery from './Gallery/Gallery';
 import Privacy from './About/Privacy';
 import NewsSingle from './About/NewsSingle';
+import SpecialCoarse from './About/SpecialCoarse';
 class App extends Component {
   render() {
     return (
@@ -77,6 +78,7 @@ class App extends Component {
                                            <Route exact path="/Carrer" component={Careers} />
                                               <Route exact path="/News" component={News} />
                                                   <Route exact path="/Privacy" component={Privacy} />
+                                                   <Route exact path="/SpecialCoarse" component={SpecialCoarse} />
                                                        <Route  path="/NewsSingle" component={NewsSingle}/>
             </Switch>
         <Footer/>

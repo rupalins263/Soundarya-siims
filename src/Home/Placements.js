@@ -53,50 +53,73 @@ export default class Home extends Component{
 
 
                             <h3 className="text sub-heading">PLACEMENT PARTNERS</h3> 
-                                <div className="flexslider12">
+         <div id="myCarousel" className="carousel slide" data-ride="carousel" data-interval="2000">
+ 
+                                        <ol className="carousel-indicators">
+                                            
+                                         
+                                    
+                                        </ol>
             
-                <div className="flex-viewport" style={{"overflow":"scroll", position: "relative"}}>
-              <ul className="slides" style={{"width":"2200%","transition-duration":"0s",transform: "translate3d(0px, 0px, 0px)"}}>
-              
-            
-              <li className="col-sm-3" style={{"width":"169.5px","float":"left","display":"block"}}>
-                <img style={{marginRight:"10px",width:"100px",height:"100px"}} src="http://zenopsys.net/soundarya_forms/sims_images/Placements/accenture_Placements.png" alt="brand"/>
-              </li>
-              <li className="col-sm-3" style={{"width":"169.5px","float":"left","display":"block"}}>
-                <img style={{marginRight:"10px",width:"100px",height:"100px"}} src="http://zenopsys.net/soundarya_forms/sims_images/Placements/bosch_Placements.png" alt="brand"/>
-              </li>
-              <li className="col-sm-3" style={{"width":"169.5px","float":"left","display":"block"}}>
-                <img style={{marginRight:"10px",width:"100px",height:"100px"}}src="http://zenopsys.net/soundarya_forms/sims_images/Placements/capg_Placements.png" alt="brand"/>
-              </li>
-              <li className="col-sm-3" style={{"width":"169.5px","float":"left","display":"block"}}>
-                <img style={{marginRight:"10px",width:"100px",height:"100px"}}src="http://zenopsys.net/soundarya_forms/sims_images/Placements/oracle_Placements.png" alt="brand"/>
-              </li>
-              <li className="col-sm-3" style={{"width":"169.5px","float":"left","display":"block"}}>
-                <img style={{marginRight:"10px",width:"100px",height:"100px"}}src="http://zenopsys.net/soundarya_forms/sims_images/Placements/ibm_Placements.png" alt="brand"/>
-              </li>
-              <li className="col-sm-3" style={{"width":"169.5px","float":"left","display":"block"}}>
-                <img style={{marginRight:"10px",width:"100px",height:"100px"}}src="http://zenopsys.net/soundarya_forms/sims_images/Placements/infosys_Placements.png" alt="brand"/>
-              </li>
-              <li className="col-sm-3" style={{"width":"169.5px","float":"left","display":"block"}}>
-                <img style={{marginRight:"10px",width:"100px",height:"100px"}}src="http://zenopsys.net/soundarya_forms/sims_images/Placements/serco_Placements.png" alt="brand"/>
-              </li>
-              <li className="col-sm-3" style={{"width":"169.5px","float":"left","display":"block"}}>
-                <img style={{marginRight:"10px",width:"100px",height:"100px"}}src="http://zenopsys.net/soundarya_forms/sims_images/Placements/ne_Placements.png" alt="brand"/>
-              </li>
-              <li className="col-sm-3" style={{"width":"169.5px","float":"left","display":"block"}}>
-                <img style={{marginRight:"10px",width:"100px",height:"100px"}}src="http://zenopsys.net/soundarya_forms/sims_images/Placements/SLK_Placements.png" alt="brand"/>
-              </li>
-              <li className="col-sm-3" style={{"width":"169.5px","float":"left","display":"block"}}>
-                <img style={{marginRight:"10px",width:"100px",height:"100px"}}src="http://zenopsys.net/soundarya_forms/sims_images/Placements/fouress_Placements.png" alt="brand"/>
-              </li>
-              <li className="col-sm-3" style={{"width":"169.5px","float":"left","display":"block"}}>
-                <img style={{marginRight:"10px",width:"100px",height:"100px"}}src="http://zenopsys.net/soundarya_forms/sims_images/Placements/abb_Placements.png" alt="brand"/>
-              </li>
-              
-       
-              
-            </ul>
-            </div></div>
+                    <div className="carousel-inner">
+                     <div className="item active">
+                           <div className="row">
+                            <div className="col-sm-2"><a ><img src="http://zenopsys.net/soundarya_forms/sims_images/Placements/accenture_Placements.png" alt="Image" style={{width:"0%"}} /></a>
+							
+						    </div>
+                            <div className="col-sm-2"><a ><img src="http://zenopsys.net/soundarya_forms/sims_images/Placements/bosch_Placements.png" alt="Image" style={{width:"120%",height:"100px"}} /></a>
+							  
+                            </div>
+                            <div className="col-sm-2"><a ><img src="http://zenopsys.net/soundarya_forms/sims_images/Placements/capg_Placements.png" alt="Image" style={{width:"120%",height:"100px"}} /></a>
+                               
+						    </div>
+                            <div className="col-sm-2"><a ><img src="http://zenopsys.net/soundarya_forms/sims_images/Placements/oracle_Placements.png" alt="Image" style={{width:"120%",height:"100px"}} /></a>
+                               
+						    </div>
+                            <div className="col-sm-2"><a ><img src="http://zenopsys.net/soundarya_forms/sims_images/Placements/ibm_Placements.png" alt="Image" style={{width:"120%",height:"100px"}} /></a>
+                               
+						    </div>
+                              <div className="col-sm-2"><a ><img src=" http://zenopsys.net/soundarya_forms/sims_images/Placements/abb_Placements.png" alt="Image" style={{width:"120%",height:"100px"}} /></a>
+                               
+						    </div>
+                           
+                          
+                        </div>
+                    </div>
+                       <div className="item">
+                           <div className="row">
+                            <div className="col-sm-2"><a ><img src="http://zenopsys.net/soundarya_forms/sims_images/Placements/infosys_Placements.png" alt="Image" style={{width:"120%",height:"100px"}} /></a>
+							
+						    </div>
+                            <div className="col-sm-2"><a ><img src="http://zenopsys.net/soundarya_forms/sims_images/Placements/bosch_Placements.png" alt="Image" style={{width:"120%",height:"100px"}} /></a>
+							  
+                            </div>
+                            <div className="col-sm-2"><a ><img src="http://zenopsys.net/soundarya_forms/sims_images/Placements/serco_Placements.png" alt="Image" style={{width:"120%",height:"100px"}} /></a>
+                               
+						    </div>
+                            <div className="col-sm-2"><a ><img src="http://zenopsys.net/soundarya_forms/sims_images/Placements/ne_Placements.png" alt="Image" style={{width:"120%",height:"100px"}} /></a>
+                               
+						    </div>
+                            <div className="col-sm-2"><a ><img src="http://zenopsys.net/soundarya_forms/sims_images/Placements/SLK_Placements.png" alt="Image" style={{width:"120%",height:"100px"}} /></a>
+                               
+						    </div>
+                             <div className="col-sm-2"><a ><img src="http://zenopsys.net/soundarya_forms/sims_images/Placements/fouress_Placements.png" alt="Image" style={{width:"120%",height:"100px"}} /></a>
+                               
+						    </div>
+                          
+                        </div>
+                    </div>
+
+            </div>
+              	<a className="left carousel-control" href="#myCarousel" data-slide="prev">
+											<span className="glyphicon glyphicon-chevron-left"></span>
+											<span className="sr-only">Previous</span>
+									</a>
+									<a className="right carousel-control" href="#myCarousel" data-slide="next">
+											<span className="glyphicon glyphicon-chevron-right"></span>
+											<span className="sr-only">Next</span>
+									</a>
+            </div>
 
 
 
@@ -367,10 +390,10 @@ export default class Home extends Component{
                             <section className="widget has-divider">
                                 <h3 className="title">Related Links</h3>
                                 <ul className="job-list custom-list-style">
-                                        <li><i className="fa fa-caret-right"></i><a href="special-courses.mako">Curriculum</a></li>
-                                        <li><i className="fa fa-caret-right"></i><a href="research-facilities.mako">Assesment Plan </a></li>
-                                        <li><i className="fa fa-caret-right"></i><a href="#faculty.mako">Teaching Staff</a></li>
-                                </ul>
+                                      <li><i className="fa fa-caret-right"></i><a href="/SpecialCoarse">Curriculum</a></li>
+                                        <li><i className="fa fa-caret-right"></i><a href="/Research">Assesment Plan </a></li>
+                                        <li><i className="fa fa-caret-right"></i><a href="/Faculty">Teaching Staff</a></li>
+                                  </ul>
                                 
                             </section>
                             <section className="widget">

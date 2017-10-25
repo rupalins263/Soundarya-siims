@@ -44,7 +44,6 @@ class App extends Component {
       <div className="App">
         <Nav/>
             <Switch>
-            <Route exact path="/" component={Home}/>
             <Route exact path="/About" component={About}/>
             <Route exact path="/Management" component={Management}/>
             <Route exact path="/Faculty" component={Faculty}/>
@@ -80,6 +79,7 @@ class App extends Component {
                                                   <Route exact path="/Privacy" component={Privacy} />
                                                    <Route exact path="/SpecialCoarse" component={SpecialCoarse} />
                                                        <Route  path="/NewsSingle" component={NewsSingle}/>
+                                                       <Route  path="/" component={Home}/>
             </Switch>
         <Footer/>
       </div>

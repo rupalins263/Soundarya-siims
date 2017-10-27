@@ -66,6 +66,10 @@ export default class Downloads extends Component{
                                         <td>Leaflet</td>
                                         <td><a href="http://zenopsys.net/soundarya_forms/sims/downloads/leaflet.pdf"><i className="fa fa-file-pdf-o"></i> Download PDF</a></td>                                    
                                     </tr>
+                                    <tr>
+                                        <td>Information brochure on UDYAMI  2K17 </td>
+                                        <td><a href="http://zenopsys.net/soundarya_forms/sims/downloads/leaflet.pdf"><i className="fa fa-file-pdf-o"></i> Download PDF</a></td>                                    
+                                    </tr>
                                 </tbody>
                             </table>
  

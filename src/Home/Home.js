@@ -15,9 +15,17 @@ export default class Home extends Component{
     componentWillMount(){
          axios.get(`http://198.12.154.44:3333/SIMS/Image/1`)
              .then((res)=>{
-                    console.log(res)
+                  let filter= res.data.response.sort((a,b)=>{
+						if(a.imageid>b.imageid)
+						{
+							return -1;
+						}
+						else{
+							return 1;
+						}
+				  })
                     this.setState({
-                        corosel:res.data.response,
+                        corosel:filter,
                        
                     })
              })
@@ -98,6 +106,7 @@ export default class Home extends Component{
         }
 		         let val="";
 		  let num="";
+		  console.log(this.state.corosel)
                 if(this.state.corosel.length>0)
                 {
                     val=this.state.corosel.map((item,index)=>{
@@ -105,7 +114,7 @@ export default class Home extends Component{
                           {
                               return(
                                        <div className="item active">
-                                                <img src={item.image_url} alt="Los Angeles" style={{width:"100%",height:500}}/>
+                                                <img src={item.image_url} alt="" style={{width:"100%",height:500}}/>
 
                                             </div>  
                               )
@@ -113,7 +122,7 @@ export default class Home extends Component{
                           else{
                             return(
                                     <div className="item ">
-                                            <img src={item.image_url} alt="New york" style={{width:"100%",height:500}}/>
+                                            <img src={item.image_url} alt="" style={{width:"100%",height:500}}/>
 											<p className="flex-caption">
 												<span className="main">Welcome to Soundarya Institute of Management &amp; Science</span>
 												<br/>

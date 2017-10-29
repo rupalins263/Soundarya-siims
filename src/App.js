@@ -48,7 +48,6 @@ class App extends Component {
             <Route exact path="/Management" component={Management}/>
             <Route exact path="/Faculty" component={Faculty}/>
             <Route exact path="/Milestones" component={Milestones}/>
-            <Route exact path="/" component={Milestones}/>
              <Route exact path="/UGCoarse" component={UGCoarse} />Research
              <Route exact path="/PGCoarse" component={PGCoarse} />
              <Route exact path="/Research" component={Research} />

@@ -47,7 +47,9 @@ export default class Home extends Component{
 	}
     render(){
 		let events="";
+
         if(this.state.events.length>0){
+			console.log(this.state.events)
             events=this.state.events.map((item,index)=>{
                 if(index<1){
                     var month=new Date(item.eventdate).toDateString().split(" ")[1];

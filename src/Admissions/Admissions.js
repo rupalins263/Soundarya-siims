@@ -39,7 +39,7 @@ export default class PgCoarse extends Component{
                                 </li>                              
                             </ul>
 							
-							<a name="eligibility"></a>
+							<a id="/Admissions#eligibility"></a>
 							<h3 className="text sub-heading">Eligibility for Admission</h3>                            
 							<ul className="custom-list-style tik star">
 								<li> 10+2 / Pre-University Course/Equivalent.</li>
@@ -69,9 +69,9 @@ export default class PgCoarse extends Component{
                             <section className="widget has-divider">
                                 <h3 className="title">Related Links</h3>
                                 <ul className="job-list custom-list-style">
-                                      <li><i className="fa fa-caret-right"></i><a href="/SpecialCoarse">Curriculum</a></li>
-                                        <li><i className="fa fa-caret-right"></i><a href="/Research">Assesment Plan </a></li>
-                                        <li><i className="fa fa-caret-right"></i><a href="/Faculty">Teaching Staff</a></li>
+                                      <li><i className="fa fa-caret-right"></i><a href="/#/SpecialCoarse">Curriculum</a></li>
+                                        <li><i className="fa fa-caret-right"></i><a href="/#/Research">Assesment Plan </a></li>
+                                        <li><i className="fa fa-caret-right"></i><a href="/#/Faculty">Teaching Staff</a></li>
                                     </ul>
                                 
                             </section>  

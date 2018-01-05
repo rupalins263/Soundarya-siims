@@ -31,13 +31,13 @@ export default class Nav extends Component{
                 <div className="col-md-4 col-sm-4 col-sm-offset-2">
 					<div className="col-md-12 mt20">
 						<div className="holder pull-right top-links">                            
-							<a href="/Faculty">CURRENT FACULTY &nbsp; |</a>
-							<a href="/Carrer">&nbsp; CAREERS &nbsp; |</a>
-							<a href="/Placements">&nbsp; PLACEMENTS </a>
+							<a href="/#/Faculty">CURRENT FACULTY &nbsp; |</a>
+							<a href="/#/Carrer">&nbsp; CAREERS &nbsp; |</a>
+							<a href="/#/Placements">&nbsp; PLACEMENTS </a>
 						</div>
 					</div>
 					<div className="col-md-12 mt10">
-						<a href="/Admissions" className="admission-btn btn btn-primary"> ADMISSIONS OPEN &gt;</a>
+						<a href="/#/Admissions" className="admission-btn btn btn-primary"> ADMISSIONS OPEN &gt;</a>
 					</div>
                 </div>
             </div>
@@ -66,21 +66,21 @@ export default class Nav extends Component{
                             <ul className="dropdown-menu">
                                 
         
-        <li className=""><a href="/About">About SIMS</a></li>
+        <li className=""><a href="/#/About">About SIMS</a></li>
     
                                 
         
-        <li className=""><a href="/Management">Key Executives</a></li>
+        <li className=""><a href="/#/Management">Key Executives</a></li>
     
 
                                 
         
-        <li className="nav-item"><a href="/Faculty">Faculty</a></li>
+        <li className="nav-item"><a href="/#/Faculty">Faculty</a></li>
     
                       
                                 
         
-        <li className="nav-item"><a href="/Milestones">Milestones</a></li>
+        <li className="nav-item"><a href="/#/Milestones">Milestones</a></li>
                                 
                             </ul> 
                          </li>                         
@@ -88,51 +88,51 @@ export default class Nav extends Component{
                             <ul className="dropdown-menu">                                
                                 
         
-        <li className="nav-item"><a href="/UGCoarse">UG Courses</a></li>
+        <li className="nav-item"><a href="/#/UGCoarse">UG Courses</a></li>
     
                                 
         
-        <li className="nav-item"><a href="/PGCoarse">PG Course</a></li>
+        <li className="nav-item"><a href="/#/PGCoarse">PG Course</a></li>
     
                                 
         
-        <li className="nav-item"><a href="/Research">Research Facilities</a></li>
+        <li className="nav-item"><a href="/#/Research">Research Facilities</a></li>
                                 
                                 
         
-        <li className="nav-item"><a href="/ValueAdded">Value Added Courses</a></li>
+        <li className="nav-item"><a href="/#/ValueAdded">Value Added Courses</a></li>
                                    
                             </ul> 
                          </li>      
-                         <li className="nav-item" id="courses"><a className="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false" href="about.mako#group">Departments<i className="fa fa-angle-down"></i></a>
+                         <li className="nav-item" id="courses"><a className="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false" href="/">Departments<i className="fa fa-angle-down"></i></a>
                             <ul className="dropdown-menu">                                
                                 
         
-        <li className="nav-item"><a href="/MangementStudy">Management</a></li>
+        <li className="nav-item"><a href="/#/MangementStudy">Management</a></li>
     
                                 
         
-        <li className="nav-item"><a href="/Commerce">Commerce</a></li>
+        <li className="nav-item"><a href="/#/Commerce">Commerce</a></li>
     
                                 
         
-        <li className="nav-item"><a href="/BCA">BCA</a></li>
+        <li className="nav-item"><a href="/#/BCA">BCA</a></li>
     
                                 
         
-        <li className="nav-item"><a href="/Physical">Physical Education</a></li>
+        <li className="nav-item"><a href="/#/Physical">Physical Education</a></li>
                                    
                             </ul> 
                          </li>    
-                         <li className="nav-item" id="admissions"><a className="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false" href="about.mako#group">Admissions<i className="fa fa-angle-down"></i></a>
+                         <li className="nav-item" id="admissions"><a className="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false" href="/">Admissions<i className="fa fa-angle-down"></i></a>
                             <ul className="dropdown-menu">                                
                                 
         
-        <li className="nav-item"><a href="/Admissions">Admission Process</a></li>
+        <li className="nav-item"><a href="/#/Admissions">Admission Process</a></li>
     
                                 
         
-        <li className="nav-item"><a href="/Admissions#eligibility">Eligibility Criteria</a></li>
+        <li className="nav-item"><a href="/#/Admissions#eligibility">Eligibility Criteria</a></li>
     
                               
                             </ul> 
@@ -141,48 +141,48 @@ export default class Nav extends Component{
                             <a className="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false" href="#">Campus Life <i className="fa fa-angle-down"></i></a>
                             <ul className="dropdown-menu">
                              
-        <li className="nav-item"><a href="/Library">Library</a></li>
+        <li className="nav-item"><a href="/#/Library">Library</a></li>
     
                         
                                 
         
-        <li className="nav-item"><a href="/Student">Student Council</a></li>
+        <li className="nav-item"><a href="/#/Student">Student Council</a></li>
       
                                 
         
-        <li className="nav-item"><a href="/CommerceClub">Commerce &amp; Management Club</a></li>
+        <li className="nav-item"><a href="/#/CommerceClub">Commerce &amp; Management Club</a></li>
                                 
                                 
         
-        <li className="nav-item"><a href="/ITClub">IT Club</a></li>
+        <li className="nav-item"><a href="/#/ITClub">IT Club</a></li>
     
                                 
         
-        <li className="nav-item"><a href="/LiteracyClub">Literary Club</a></li>
+        <li className="nav-item"><a href="/#/LiteracyClub">Literary Club</a></li>
     
                                 
         
-        <li className="nav-item"><a href="/Sports">Sports Activities</a></li>
+        <li className="nav-item"><a href="/#/Sports">Sports Activities</a></li>
     
                                 
         
-        <li className="nav-item"><a href="/Women">Women's Cell</a></li>
+        <li className="nav-item"><a href="/#/Women">Women's Cell</a></li>
     
                                 
         
-        <li className="nav-item"><a href="/Nss">National Service Scheme (NSS)</a></li>
+        <li className="nav-item"><a href="/#/Nss">National Service Scheme (NSS)</a></li>
     
                                 
         
-        <li className="nav-item"><a href="/Clubs">Clubs &amp; Committee</a></li>
+        <li className="nav-item"><a href="/#/Clubs">Clubs &amp; Committee</a></li>
                                    
                                 
         
-        <li className="nav-item"><a href="/Unique">Unique Features</a></li>
+        <li className="nav-item"><a href="/#/Unique">Unique Features</a></li>
     
                                 
         
-        <li className="nav-item"><a href="/Hostels">Hostels</a></li>
+        <li className="nav-item"><a href="/#/Hostels">Hostels</a></li>
     
                                        
                                                                
@@ -190,23 +190,23 @@ export default class Nav extends Component{
                          </li>   
                         
         
-        <li className="nav-item"><a href="/IQAC">IQAC</a></li>
+        <li className="nav-item"><a href="/#/IQAC">IQAC</a></li>
     
                         
         
-        <li className="nav-item"><a href="/Gallery">Gallery</a></li>
+        <li className="nav-item"><a href="/#/Gallery">Gallery</a></li>
     
                         
         
-        <li className="nav-item"><a href="/Placements">Placements</a></li>
+        <li className="nav-item"><a href="/#/Placements">Placements</a></li>
     
                         
         
-        <li className="nav-item"><a href="/Downloads">Downloads</a></li>
+        <li className="nav-item"><a href="/#/Downloads">Downloads</a></li>
     
                         
         
-        <li className="nav-item"><a href="/Contact">Contact Us</a></li>
+        <li className="nav-item"><a href="/#/Contact">Contact Us</a></li>
     
                         </ul>
                 </div>

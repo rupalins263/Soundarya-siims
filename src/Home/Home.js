@@ -13,7 +13,7 @@ export default class Home extends Component{
         }
     }
     componentWillMount(){
-         axios.get(`http://198.12.154.44:3333/SIMS/Image/1`)
+         axios.get(`http://ec2-18-217-223-214.us-east-2.compute.amazonaws.com/SIMS/Image/1`)
              .then((res)=>{
                   let filter= res.data.response.sort((a,b)=>{
 						if(a.imageid>b.imageid)
@@ -34,7 +34,7 @@ export default class Home extends Component{
     }
 	componentDidMount(){
 	
-		 axios.get(`http://198.12.154.44:3333/SIMS/Events`)
+		 axios.get(`http://ec2-18-217-223-214.us-east-2.compute.amazonaws.com/SIMS/Events`)
              .then((res)=>{
                     console.log(res)
                     this.setState({
@@ -249,7 +249,7 @@ export default class Home extends Component{
 				<div className="col-md-3 col-xs-12 program-left">
 					<h4 className="sub-headings">Our Programs</h4>
 					<p>We have introduced 5 new programs this year. Learn More &amp; Apply</p>
-					<a href="/UGCoarse" className="btn btn-primary trans-btn"> All Programs &gt;</a>
+					<a href="/#/UGCoarse" className="btn btn-primary trans-btn"> All Programs &gt;</a>
 				</div>
 				   <div id="myCarouseli" className="col-md-9 carousel slide">
                 
@@ -338,7 +338,7 @@ export default class Home extends Component{
 				<div className="col-md-3 col-md-offset-2 col-xs-12">
 					<h3 className="heading">Join The Experience</h3>
 					<p className="text-justify">SIMS is committed to excellence in education that meets the expectations of the students aspiring for enriching academic and professional careers.</p>
-					<a href="/Admissions" className="btn btn-primary more-btn">Read More &gt;&gt;</a>
+					<a href="/#/Admissions" className="btn btn-primary more-btn">Read More &gt;&gt;</a>
 				</div>
 			</div>
 		</div>
@@ -389,16 +389,16 @@ export default class Home extends Component{
 			<h3 className="heading">Useful Links</h3>
 			<div className="col-md-6 col-xs-12">
 				<ul className="p0" style={{textAlign:"left",listStyleType:"none"}}>
-					<li><a href="/Admissions"><i className="fa fa-caret-right"></i> Admissions</a></li>
-					<li><a href="/UGCoarse"><i className="fa fa-caret-right"></i> Courses</a></li>
-					<li><a href="/Placements"><i className="fa fa-caret-right"></i> Placements</a></li>
+					<li><a href="/#/Admissions"><i className="fa fa-caret-right"></i> Admissions</a></li>
+					<li><a href="/#/UGCoarse"><i className="fa fa-caret-right"></i> Courses</a></li>
+					<li><a href="/#/Placements"><i className="fa fa-caret-right"></i> Placements</a></li>
 				</ul>
 			</div>
 			<div className="col-md-6 col-xs-12" >
 				<ul className="p0" style={{textAlign:"left",listStyleType:"none"}}>
-					<li><a href="/Research"><i className="fa fa-caret-right"></i> Research Facilities</a></li>
-					<li><a href="/ValueAdded"><i className="fa fa-caret-right"></i> Value Added Courses</a></li>
-					<li><a href="/Downloads"><i className="fa fa-caret-right"></i> Downloads</a></li>
+					<li><a href="/#/Research"><i className="fa fa-caret-right"></i> Research Facilities</a></li>
+					<li><a href="/#/ValueAdded"><i className="fa fa-caret-right"></i> Value Added Courses</a></li>
+					<li><a href="/#/Downloads"><i className="fa fa-caret-right"></i> Downloads</a></li>
 				</ul>
 			</div>
 			<div className="col-md-6 col-xs-12 mt20">

@@ -14,10 +14,10 @@ export default class Nav extends Component{
                     <div className="footer-col-inner">
                         <h3>More Links</h3>
                         <ul >
-                            <li><a href="/Gallery"><i className="fa fa-caret-right"></i>Gallery</a></li>
-                            <li><a href="/Privacy"><i className="fa fa-caret-right"></i>Privacy Policy</a></li>
-                            <li><a href="/UGCoarse"><i className="fa fa-caret-right"></i>Courses Offered</a></li>
-                            <li><a href="/Placements"><i className="fa fa-caret-right"></i>Placements</a></li>
+                            <li><a href="/#/Gallery"><i className="fa fa-caret-right"></i>Gallery</a></li>
+                            <li><a href="/#/Privacy"><i className="fa fa-caret-right"></i>Privacy Policy</a></li>
+                            <li><a href="/#/UGCoarse"><i className="fa fa-caret-right"></i>Courses Offered</a></li>
+                            <li><a href="/#/Placements"><i className="fa fa-caret-right"></i>Placements</a></li>
                             
                         </ul>
                     </div>
@@ -27,10 +27,10 @@ export default class Nav extends Component{
                     <div className="footer-col-inner">
                         <h3>&nbsp;</h3>
                         <ul>
-                            <li><a href="/News"><i className="fa fa-caret-right"></i>News &amp; Events</a></li>
-                            <li><a href="/Faculty"><i className="fa fa-caret-right"></i>Faculty</a></li>
-                            <li><a href="/Management"><i className="fa fa-caret-right"></i>Management</a></li>
-                            <li><a href="/Contact"><i className="fa fa-caret-right"></i>Contact Us</a></li>
+                            <li><a href="/#/News"><i className="fa fa-caret-right"></i>News &amp; Events</a></li>
+                            <li><a href="/#/Faculty"><i className="fa fa-caret-right"></i>Faculty</a></li>
+                            <li><a href="/#/Management"><i className="fa fa-caret-right"></i>Management</a></li>
+                            <li><a href="/#/Contact"><i className="fa fa-caret-right"></i>Contact Us</a></li>
                             
                         </ul>
                     </div>

@@ -46,9 +46,9 @@ export default class Clubs extends Component{
                             <section className="widget has-divider">
                                 <h3 className="title">Related Links</h3>
                                 <ul className="job-list custom-list-style">
-                                        <li><i className="fa fa-caret-right"></i><a href="/Faculty">Curriculum</a></li>
-                                        <li><i className="fa fa-caret-right"></i><a href="/Research">Assesment Plan </a></li>
-                                        <li><i className="fa fa-caret-right"></i><a href="/Faculty">Teaching Staff</a></li>
+                                        <li><i className="fa fa-caret-right"></i><a href="/#/Faculty">Curriculum</a></li>
+                                        <li><i className="fa fa-caret-right"></i><a href="/#/Research">Assesment Plan </a></li>
+                                        <li><i className="fa fa-caret-right"></i><a href="/#/Faculty">Teaching Staff</a></li>
                                 </ul>
                                 
                             </section> 

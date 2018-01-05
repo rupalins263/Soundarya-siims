@@ -13,7 +13,7 @@ export default class Home extends Component{
     }
     componentDidMount(){
 	
-		 axios.get(`http://198.12.154.44:3333/SIMS/Events`)
+		 axios.get(`http://ec2-18-217-223-214.us-east-2.compute.amazonaws.com/SIMS/Events`)
              .then((res)=>{
                     console.log(res)
                     this.setState({
@@ -31,7 +31,7 @@ export default class Home extends Component{
                 if(index<1){
                     var month=new Date(item.eventdate).toDateString().split(" ")[1];
                      var day=new Date(item.eventdate).toDateString().split(" ")[2];
-                     var href=`/NewsSingle?id=${item.eventid}`;
+                     var href=`/#/NewsSingle?id=${item.eventid}`;
                     return(
                                     <article className="events-item row page-row">                                    
                                                 <div className="date-label-wrapper col-md-3 col-sm-4 col-xs-4">

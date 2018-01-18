@@ -65,19 +65,7 @@ export default class Faculty extends Component{
 											<td>Dept. Of Kannada</td>
 											<td>MA</td>
 											<td>Asst.Prof.</td>
-										</tr><tr role="row" class="even">
-											<td tabindex="0" class="sorting_1">6</td>
-											<td>Mr.Puttanna</td>
-											<td>Dept. Of English</td>
-											<td>M.A., B.Ed</td>
-											<td>Asst.Prof.</td>
-										</tr><tr role="row" class="odd">
-											<td tabindex="0" class="sorting_1">7</td>
-											<td>Mr.Ravi G.S</td>
-											<td>Dept. Of English</td>
-											<td>M.A, D.Ed</td>
-											<td>Asst.Prof.</td>
-										</tr><tr role="row" class="even">
+										</tr>><tr role="row" class="even">
 											<td tabindex="0" class="sorting_1">8</td>
 											<td>Mrs.Gayathri Bai R</td>
 											<td>Dept. Of Hindi</td>
@@ -107,12 +95,6 @@ export default class Faculty extends Component{
 											<td>Commerce</td>
 											<td> MBA(M.Com)</td>
 											<td>Asst.Prof.</td>
-										</tr><tr role="row" class="odd">
-											<td class="sorting_1" tabindex="0">13</td>
-											<td>Mrs.Shubha V.S</td>
-											<td>Commerce</td>
-											<td>M.Com, M.Phil, PGDHRM,PGDMM</td>
-											<td>Asst.Prof.</td>
 										</tr><tr role="row" class="even">
 											<td class="sorting_1" tabindex="0">14</td>
 											<td>Mrs.Sunitha N</td>
@@ -125,7 +107,16 @@ export default class Faculty extends Component{
 											<td>Commerce</td>
 											<td>M.Com</td>
 											<td>Asst.Prof.</td>
-										</tr><tr role="row" class="even">
+
+										</tr>
+										<tr role="row" class="even">
+											<td class="sorting_1" tabindex="0">26</td>
+											<td>Mr.Lokesh G Angadi</td>
+											<td>Dept. Of Commerce</td>
+											<td>M.Com, MBA,PGDHRM</td>
+											<td>Asst.Prof.</td>
+										</tr>
+										<tr role="row" class="even">
 											<td class="sorting_1" tabindex="0">16</td>
 											<td>Mr.Gurudath M.R</td>
 											<td>Commerce</td>
@@ -137,7 +128,15 @@ export default class Faculty extends Component{
 											<td>Management</td>
 											<td>B.Com., MBA</td>
 											<td>Asst.Prof.</td>
-										</tr><tr role="row" class="even">
+										</tr>
+										<tr role="row" class="odd">
+											<td class="sorting_1" tabindex="0">17</td>
+											<td>Mr.Darshan C</td>
+											<td>Management</td>
+											<td> BE,MBA</td>
+											<td>Asst.Prof.</td>
+										</tr>
+										<tr role="row" class="even">
 											<td class="sorting_1" tabindex="0">18</td>
 											<td>Mr.Ramesh D</td>
 											<td>Management</td>
@@ -191,7 +190,46 @@ export default class Faculty extends Component{
 											<td>Dept. Of BCA</td>
 											<td>MCA</td>
 											<td>Asst.Prof.</td>
-										</tr></tbody>
+										</tr>
+										<tr role="row" class="even">
+											<td class="sorting_1" tabindex="0">26</td>
+											<td>Mr.Shivakumar U Ganachari</td>
+											<td>Dept. Of English</td>
+											<td>MA,M.Phil</td>
+											<td>Asst.Prof.</td>
+										</tr>
+										<tr role="row" class="even">
+											<td class="sorting_1" tabindex="0">26</td>
+											<td>Mr.N.B.Shigihalli</td>
+											<td>Dept. Of Physics</td>
+											<td>Msc,M.Phil</td>
+											<td>Professor </td>
+										</tr>
+										<tr role="row" class="even">
+											<td class="sorting_1" tabindex="0">26</td>
+											<td>Mr.Tejsawi C M</td>
+											<td>Dept. Of Mathematics</td>
+											<td>Msc</td>
+											<td>Asst.Prof.</td>
+										</tr>
+										<tr role="row" class="even">
+											<td class="sorting_1" tabindex="0">26</td>
+											<td>Mr.Abdul Khalak</td>
+											<td>Dept. Of English</td>
+											<td>MA(Eng),KSET,PGDAS</td>
+											<td>Asst.Prof.</td>
+										</tr>
+										<tr role="row" class="even">
+											<td class="sorting_1" tabindex="0">26</td>
+											<td>Mrs. Sushma A V</td>
+											<td>Dept. Of Chemistry</td>
+											<td>MSc</td>
+											<td>Asst.Prof.</td>
+										</tr>
+									
+
+										
+										</tbody>
                             </table></div></div><div className="row">
 								<div className="col-sm-7"></div></div></div>
                             </div>

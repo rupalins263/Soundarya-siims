@@ -65,44 +65,44 @@ export default class Faculty extends Component{
 											<td>Dept. Of Kannada</td>
 											<td>MA</td>
 											<td>Asst.Prof.</td>
-										</tr>><tr role="row" class="even">
-											<td tabindex="0" class="sorting_1">8</td>
+										</tr><tr role="row" class="even">
+											<td tabindex="0" class="sorting_1">6</td>
 											<td>Mrs.Gayathri Bai R</td>
 											<td>Dept. Of Hindi</td>
 											<td>M.A., B.Ed.</td>
 											<td>Asst.Prof.</td>
 										</tr><tr role="row" class="odd">
-											<td tabindex="0" class="sorting_1">9</td>
+											<td tabindex="0" class="sorting_1">7</td>
 											<td>Mr.Naveen.A</td>
 											<td>Commerce</td>
 											<td>M.Com</td>
 											<td>HOD (Commerce )</td>
 										</tr><tr role="row" class="even">
-											<td tabindex="0" class="sorting_1">10</td>
+											<td tabindex="0" class="sorting_1">8</td>
 											<td>Mrs.Prithvi Heggade M.P</td>
 											<td>Commerce</td>
 											<td>M.Com., M.Phil.</td>
 											<td>Asst.Prof.</td>
 										</tr><tr role="row" class="odd">
-											<td class="sorting_1" tabindex="0">11</td>
+											<td class="sorting_1" tabindex="0">9</td>
 											<td>Mrs.Sowmyalatha</td>
 											<td>Commerce</td>
 											<td>M.Com</td>
 											<td>Asst.Prof.</td>
 										</tr><tr role="row" class="even">
-											<td class="sorting_1" tabindex="0">12</td>
+											<td class="sorting_1" tabindex="0">10</td>
 											<td>Mrs.Suguna K</td>
 											<td>Commerce</td>
 											<td> MBA(M.Com)</td>
 											<td>Asst.Prof.</td>
 										</tr><tr role="row" class="even">
-											<td class="sorting_1" tabindex="0">14</td>
+											<td class="sorting_1" tabindex="0">11</td>
 											<td>Mrs.Sunitha N</td>
 											<td>Commerce</td>
 											<td>M.Com</td>
 											<td>Asst.Prof.</td>
 										</tr><tr role="row" class="odd">
-											<td class="sorting_1" tabindex="0">15</td>
+											<td class="sorting_1" tabindex="0">12</td>
 											<td>Mr.Anilkumar</td>
 											<td>Commerce</td>
 											<td>M.Com</td>
@@ -110,82 +110,82 @@ export default class Faculty extends Component{
 
 										</tr>
 										<tr role="row" class="even">
-											<td class="sorting_1" tabindex="0">26</td>
+											<td class="sorting_1" tabindex="0">13</td>
 											<td>Mr.Lokesh G Angadi</td>
 											<td>Dept. Of Commerce</td>
 											<td>M.Com, MBA,PGDHRM</td>
 											<td>Asst.Prof.</td>
 										</tr>
 										<tr role="row" class="even">
-											<td class="sorting_1" tabindex="0">16</td>
+											<td class="sorting_1" tabindex="0">14</td>
 											<td>Mr.Gurudath M.R</td>
 											<td>Commerce</td>
 											<td>M.Com</td>
 											<td>Asst.Prof.</td>
 										</tr><tr role="row" class="odd">
-											<td class="sorting_1" tabindex="0">17</td>
+											<td class="sorting_1" tabindex="0">15</td>
 											<td>Mr.Ravi B A</td>
 											<td>Management</td>
 											<td>B.Com., MBA</td>
 											<td>Asst.Prof.</td>
 										</tr>
 										<tr role="row" class="odd">
-											<td class="sorting_1" tabindex="0">17</td>
+											<td class="sorting_1" tabindex="0">16</td>
 											<td>Mr.Darshan C</td>
 											<td>Management</td>
 											<td> BE,MBA</td>
 											<td>Asst.Prof.</td>
 										</tr>
 										<tr role="row" class="even">
-											<td class="sorting_1" tabindex="0">18</td>
+											<td class="sorting_1" tabindex="0">17</td>
 											<td>Mr.Ramesh D</td>
 											<td>Management</td>
 											<td>M.Sc., MBA, M.Ed., (Ph.D)</td>
 											<td>Asst.Prof.</td>
 										</tr><tr role="row" class="odd">
-											<td class="sorting_1" tabindex="0">19</td>
+											<td class="sorting_1" tabindex="0">18</td>
 											<td>Mrs.Haritha M</td>
 											<td>Management</td>
 											<td>MBA., M.Com., B.Ed, (Ph.D)</td>
 											<td>Asst.Prof.</td>
 										</tr><tr role="row" class="even">
-											<td class="sorting_1" tabindex="0">20</td>
+											<td class="sorting_1" tabindex="0">19</td>
 											<td>Miss.Nischitha</td>
 											<td>Management</td>
 											<td>M.Com.,KSET</td>
 											<td>Asst.Prof.</td>
 										</tr><tr role="row" class="odd">
-											<td class="sorting_1" tabindex="0">21</td>
+											<td class="sorting_1" tabindex="0">20</td>
 											<td>Mrs.Nethravathi A</td>
 											<td>Management</td>
 											<td>B.Com, MBA</td>
 											<td>Asst.Prof.</td>
 										</tr><tr role="row" class="even">
-											<td class="sorting_1" tabindex="0">22</td>
+											<td class="sorting_1" tabindex="0">21</td>
 											<td>Mr. Praveen Kumar B</td>
 											<td>Dept. Of BCA</td>
 											<td>M.Sc.(IT),M.Tech.(IT)</td>
 											<td>HOD (CS Dept.)</td>
 										</tr><tr role="row" class="odd">
-											<td class="sorting_1" tabindex="0">23</td>
+											<td class="sorting_1" tabindex="0">22</td>
 											<td>Mrs.Vijayalaxmi R.S.</td>
 											<td>Dept. Of BCA</td>
 											<td>ADCA,MCA</td>
 											<td>Asst.Prof.</td>
 										</tr><tr role="row" class="even">
-											<td class="sorting_1" tabindex="0">24</td>
+											<td class="sorting_1" tabindex="0">23</td>
 											<td>Mrs.Madhumita</td>
 											<td>Dept. Of BCA</td>
 											<td>M.C.A.</td>
 											<td>Asst.Prof.</td>
 										</tr><tr role="row" class="odd">
-											<td class="sorting_1" tabindex="0">25</td>
+											<td class="sorting_1" tabindex="0">24</td>
 											<td>Mrs.Sheela D.V</td>
 											<td>Dept. Of BCA</td>
 											<td>M.Sc., (MCA)</td>
 											<td>Asst.Prof.</td>
 										</tr><tr role="row" class="even">
-											<td class="sorting_1" tabindex="0">26</td>
+											<td class="sorting_1" tabindex="0">25</td>
 											<td>Mrs.Divyashree D</td>
 											<td>Dept. Of BCA</td>
 											<td>MCA</td>
@@ -199,28 +199,28 @@ export default class Faculty extends Component{
 											<td>Asst.Prof.</td>
 										</tr>
 										<tr role="row" class="even">
-											<td class="sorting_1" tabindex="0">26</td>
+											<td class="sorting_1" tabindex="0">27</td>
 											<td>Mr.N.B.Shigihalli</td>
 											<td>Dept. Of Physics</td>
 											<td>Msc,M.Phil</td>
 											<td>Professor </td>
 										</tr>
 										<tr role="row" class="even">
-											<td class="sorting_1" tabindex="0">26</td>
+											<td class="sorting_1" tabindex="0">28</td>
 											<td>Mr.Tejsawi C M</td>
 											<td>Dept. Of Mathematics</td>
 											<td>Msc</td>
 											<td>Asst.Prof.</td>
 										</tr>
 										<tr role="row" class="even">
-											<td class="sorting_1" tabindex="0">26</td>
+											<td class="sorting_1" tabindex="0">29</td>
 											<td>Mr.Abdul Khalak</td>
 											<td>Dept. Of English</td>
 											<td>MA(Eng),KSET,PGDAS</td>
 											<td>Asst.Prof.</td>
 										</tr>
 										<tr role="row" class="even">
-											<td class="sorting_1" tabindex="0">26</td>
+											<td class="sorting_1" tabindex="0">30</td>
 											<td>Mrs. Sushma A V</td>
 											<td>Dept. Of Chemistry</td>
 											<td>MSc</td>

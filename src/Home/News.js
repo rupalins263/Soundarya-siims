@@ -28,7 +28,7 @@ export default class Home extends Component{
         	let events="";
         if(this.state.events.length>0){
             events=this.state.events.map((item,index)=>{
-                if(index<1){
+                if(item.eventdate){
                     var month=new Date(item.eventdate).toDateString().split(" ")[1];
                      var day=new Date(item.eventdate).toDateString().split(" ")[2];
                      var href=`/#/NewsSingle?id=${item.eventid}`;

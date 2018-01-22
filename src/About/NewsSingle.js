@@ -7,44 +7,45 @@ export default class NewsSingle extends Component{
         this.state={
             events:[],
             currentEvent:{
-                    date:"",
+                eventdate:"Mon Jan 22 2018 12:12:23 GMT+0530 (IST)",
                     img:"",
-                    Desc:""
+                eventname:""
             }
         }
     }
-    componentWillMount(){
-       
-        if(window.location.search)
-        {
-            var _this=this;
-             console.log(window.location.search.slice(-1))
+    componentDidMount(){
+   
+       var a= window.location.hash.split("id=")[1]
+
+             console.log(a,"apa")
            axios.get(`http://ec2-18-217-223-214.us-east-2.compute.amazonaws.com/SIMS/Events`)
              .then((res)=>{
-                    console.log(res)
+                    
+                    var _this=this;
                         var current={};
-                        res.data.response.forEach(function(element) {
-                           if(window.location.search.slice(-1)==element.eventid)
-                           {
-                                    _this.setState({
-                                            currentEvent:element
-                                        
-                                        })
-                             }
+                        current=res.data.response.filter(function(element) {
+                           return element.eventid==a;
+                       
                         }
                             
                         )
-                    // this.setState({
-                    //     events:res.data.response,
+                        console.log(current)
+                        
+                     _this.setState({
+                         currentEvent:current[0],
                        
-                    // })
+                    })
              })
-        }
+    
     }
     render(){
-        var year=new Date(this.state.currentEvent.eventdate).getFullYear();
-        var month=new Date(this.state.currentEvent.eventdate).toDateString().split(" ")[1];
-         var day=new Date(this.state.currentEvent.eventdate).toDateString().split(" ")[2];
+        var year,month,day;
+        if(this.state.currentEvent.eventdate)
+        {
+         year=new Date(this.state.currentEvent.eventdate).getFullYear();
+         month=new Date(this.state.currentEvent.eventdate).toDateString().split(" ")[1];
+          day=new Date(this.state.currentEvent.eventdate).toDateString().split(" ")[2];
+        }
         
         return(
 
@@ -70,6 +71,7 @@ export default class NewsSingle extends Component{
                                
 							<div className="box box-border page-row">
                                     <ul className="list-unstyled">
+                                            <li><strong>{this.state.currentEvent.eventname}</strong></li>
 											<li><strong>Date:</strong> {day + " " +month+" "+year }</li>
                                         <li><strong>Location:</strong> Soundarya Institute of Management ans Science</li>
                                         <li><strong>Map link:</strong> 

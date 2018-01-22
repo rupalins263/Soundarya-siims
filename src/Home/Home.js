@@ -51,10 +51,10 @@ export default class Home extends Component{
         if(this.state.events.length>0){
 			console.log(this.state.events)
             events=this.state.events.map((item,index)=>{
-                if(index<1){
+                if(index==0){
                     var month=new Date(item.eventdate).toDateString().split(" ")[1];
                      var day=new Date(item.eventdate).toDateString().split(" ")[2];
-                     var href=`/NewsSingle?id=${item.eventid}`;
+                     var href=`/#/NewsSingle?id=${item.eventid}`;
                     return(
                  			 <div className="col-md-3 col-xs-12 col-sm-6">
 								<div className="col-md-12 col-xs-12 col-sm-12 events all-events">
@@ -75,7 +75,7 @@ export default class Home extends Component{
 													</div>
 													</div>
 												</div>
-										<a className="read-more" href="/News">All events<i className="fa fa-chevron-right"></i></a>
+										<a className="read-more" href="/#/News">All events<i className="fa fa-chevron-right"></i></a>
 										</div>
 									</div>
 								</div>
@@ -84,21 +84,21 @@ export default class Home extends Component{
                           }
                      
                         else{
-                            return (	 <div className="col-md-3 col-xs-12 col-sm-6">
-								<div className="col-md-12 col-xs-12 col-sm-12 events all-events">
-									<h3 className="heading">Events</h3>
-									<div className="section-content" style={{marginTop:"10px"}}>
-												<div className="event-item">
-													<p className="date-label">
+                            // return (	 <div className="col-md-3 col-xs-12 col-sm-6">
+							// 	<div className="col-md-12 col-xs-12 col-sm-12 events all-events">
+							// 		<h3 className="heading">Events</h3>
+							// 		<div className="section-content" style={{marginTop:"10px"}}>
+							// 					<div className="event-item">
+							// 						<p className="date-label">
 													
-													</p>
-													<div className="details">
-														</div>
-												</div>
-										<a className="read-more" href="/News">All events<i className="fa fa-chevron-right"></i></a>
-										</div>
-									</div>
-								</div>)
+							// 						</p>
+							// 						<div className="details">
+							// 							</div>
+							// 					</div>
+							// 			<a className="read-more" href="/News">All events<i className="fa fa-chevron-right"></i></a>
+							// 			</div>
+							// 		</div>
+							// 	</div>)
 
                             }
                 

@@ -127,10 +127,13 @@ export default class Home extends Component{
 							<h3 style={{"margin-bottom":"20px"}}><strong>IQAC REPORT: </strong></h3>
 							<p>The foremost   task of the IQAC is to expand a system for conscious, reliable and systematic improvement in the presentation of the institution. The Internal Quality Assurance Cell (IQAC) has a significant contribution in the functioning of the Institution. </p>
 							<p><b>Reports</b></p>
+	
 							<p>AQAR -2015</p>
 							<p>NAAC/AQAR ACK/ SEPT/ 2015/ KACOGIN18476</p>
 							<p>AQAR- 2016</p>
 							<p>NAAC/AQAR ACK/JULY/ 2016/ KACOGIN18476</p>
+							<p><a href="http://zenopsys.net/soundarya_forms/sims/SIMS_AQAR.pdf">SIMS_AQAR</a></p>
+							<p><a href="http://zenopsys.net/soundarya_forms/sims/SIMS_AQAR_2017.pdf">SIMS_AQAR-2017</a></p>
 						</article>
                         <aside className="page-sidebar  col-md-3 col-md-offset-1 col-sm-4 col-sm-offset-1">                    
                             <section className="widget has-divider">
